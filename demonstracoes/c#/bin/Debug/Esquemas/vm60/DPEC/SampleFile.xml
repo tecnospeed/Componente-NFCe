@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio - FREE Community Edition 7.0.2.746 (http://www.liquid-technologies.com) -->
+<tnsa:envDPEC xmlns:tns="http://www.w3.org/2000/09/xmldsig#" xmlns:tnsa="http://www.portalfiscal.inf.br/nfe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.portalfiscal.inf.br/nfe C:\Users\joe\Desenvolvimento\SPED\spdNFe\tests\Esquemas\DPEC\envDPEC_v1.01.xsd" versao="string">
+  <tnsa:infDPEC Id="AAAAA">
+    <tnsa:ideDec>
+      <tnsa:cUF>41</tnsa:cUF>
+      <tnsa:tpAmb>2</tnsa:tpAmb>
+      <tnsa:verProc>string</tnsa:verProc>
+      <tnsa:CNPJ>string</tnsa:CNPJ>
+      <tnsa:IE>string</tnsa:IE>
+    </tnsa:ideDec>
+    <tnsa:resNFe>
+      <tnsa:chNFe>string</tnsa:chNFe>
+      <tnsa:CPF>string</tnsa:CPF>
+      <tnsa:UF>RJ</tnsa:UF>
+      <tnsa:vNF>string</tnsa:vNF>
+      <tnsa:vICMS>string</tnsa:vICMS>
+      <tnsa:vST>string</tnsa:vST>
+    </tnsa:resNFe>
+  </tnsa:infDPEC>
+  <tns:Signature Id="AAAAB">
+    <tns:SignedInfo>
+      <tns:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <tns:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <tns:Reference URI="http://www.liquid-technologies.com" Type="http://www.liquid-technologies.com">
+        <tns:Transforms>
+          <tns:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <tns:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        </tns:Transforms>
+        <tns:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <tns:DigestValue>YTM0NZomIzI2OTsmIzM0NTueYQ==</tns:DigestValue>
+      </tns:Reference>
+    </tns:SignedInfo>
+    <tns:SignatureValue>YTM0NZomIzI2OTsmIzM0NTueYQ==</tns:SignatureValue>
+    <tns:KeyInfo Id="AAAAC">
+      <tns:X509Data>
+        <tns:X509Certificate>YTM0NZomIzI2OTsmIzM0NTueYQ==</tns:X509Certificate>
+      </tns:X509Data>
+    </tns:KeyInfo>
+  </tns:Signature>
+</tnsa:envDPEC>

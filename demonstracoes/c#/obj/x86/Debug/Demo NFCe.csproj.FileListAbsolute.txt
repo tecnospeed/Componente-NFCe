@@ -1,0 +1,40 @@
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFCeX.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.ResolveComReference.cache
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.GenerateResource.Cache
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\bin\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\bin\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.ResolveComReference.cache
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.GenerateResource.Cache
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFCeX.dll
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\bin\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demos Comercial\Demo NFCe - VS2012 - C#\bin\Debug\Demo NFe.pdb
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\bin\Debug\Demo NFe.exe
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\bin\Debug\Demo NFe.pdb
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFCeX.dll
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.ResolveComReference.cache
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.exe
+C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.pdb

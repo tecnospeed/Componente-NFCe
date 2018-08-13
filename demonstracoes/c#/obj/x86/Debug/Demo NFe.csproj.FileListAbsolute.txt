@@ -1,0 +1,83 @@
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\bin\Debug\Demo NFe.exe
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\bin\Debug\Demo NFe.pdb
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFeDataSetX.dll
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFeX.dll
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.csproj.ResolveComReference.cache
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.exe
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.pdb
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\henrique\Desktop\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFeDataSetX.dll
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFeX.dll
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.exe
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.pdb
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\bin\Debug\Demo NFe.exe
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\bin\Debug\Demo NFe.pdb
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.spdEmail.dll
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.spdGovX.dll
+C:\Documents and Settings\Administrador\Desktop\Demo NFe - C# 2010\Demo NFe\Demo NFe\Demo NFe\obj\x86\Debug\Interop.StdVCL.dll
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFeX.dll
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Interop.spdEmail.dll
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Interop.StdVCL.dll
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.csproj.ResolveComReference.cache
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.exe
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.pdb
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.csprojResolveAssemblyReference.cache
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Interop.NFeDataSetX.dll
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.frmEventos.resources
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Demo NFe.csproj.GenerateResource.Cache
+D:\Trampo\Demos\Demo NFe\Demo NFe\bin\Debug\Demo NFe.exe
+D:\Trampo\Demos\Demo NFe\Demo NFe\bin\Debug\Demo NFe.pdb
+D:\Trampo\Demos\Demo NFe\Demo NFe\obj\x86\Debug\Interop.spdCCeCTeDatasetX.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.NFeDataSetX.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.NFeX.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.spdEmail.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo NFe.csproj.ResolveComReference.cache
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\bin\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\bin\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo NFe.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Demo NFe.csproj.GenerateResource.Cache
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.spdCCeCTeDatasetX.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.spdGovX.dll
+C:\Users\Joao\Desktop\Demos\NFe - C#\Demo NFe\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo NFe.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Interop.NFeDataSetX.dll
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Interop.NFeX.dll
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Interop.spdEmail.dll
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo NFe.csproj.ResolveComReference.cache
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo NFe.csproj.GenerateResource.Cache
+C:\Users\Joao\Desktop\Demo NFe C#\bin\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demo NFe C#\bin\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demo NFe C#\obj\x86\Debug\Demo NFe.pdb
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFeDataSetX.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.NFeX.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.spdEmail.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.csproj.ResolveComReference.cache
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.exe
+C:\Users\Joao\Desktop\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.pdb

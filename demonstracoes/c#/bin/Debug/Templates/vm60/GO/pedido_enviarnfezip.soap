@@ -1,0 +1,1 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:nfe="http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4"><soap:Header/><soap:Body><nfe:nfeDadosMsgZip>%s</nfe:nfeDadosMsgZip></soap:Body></soap:Envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<retConsStatServ xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.07">
+<tpAmb>2</tpAmb>
+<verAplic>SP_NFE_PL_005a_R01</verAplic>
+<cStat>107</cStat>
+<xMotivo>Serviço em Operação</xMotivo>
+<cUF>35</cUF>
+<dhRecbto>2008-06-14T12:07:48</dhRecbto>
+<tMed>1</tMed>
+</retConsStatServ>

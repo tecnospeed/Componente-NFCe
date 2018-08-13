@@ -1,0 +1,6 @@
+[17/07/2018 14:11:03:687] 6416 - EspdTemplateNotFoundException : Arquivo de template não encontrado: C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\bin\Debug\Templates\vm60\PR\envioxml_dest.xml
+[09/08/2018 14:42:12:620] 5976 - EspdNFCeCheckParamsException : Número do Recibo deve ter exatamente 15 dígitos: 
+[09/08/2018 14:43:52:556] 4032 - EspdNFCeCheckParamsException : Código do Protocolo não pode ser vazio.
+[09/08/2018 14:51:15:258] 6884 - EspdNFCeCheckParamsException : Código do Protocolo não pode ser vazio.
+[09/08/2018 14:53:32:505] 1020 - EspdNFCeCarregarLoteNotasImpressaoException : Problema ao carregar lote de notas para impressão: Não foi informado um XML de autorização válido.
+[09/08/2018 14:53:51:690] 7128 - EspdNFCeCarregarLoteNotasImpressaoException : Problema ao carregar lote de notas para impressão: Não foi informado um XML de autorização válido.

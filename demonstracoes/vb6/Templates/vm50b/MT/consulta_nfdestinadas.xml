@@ -1,0 +1,1 @@
+<consNFeDest xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01"><tpAmb>%s</tpAmb><xServ>CONSULTAR NFE DEST</xServ><CNPJ>%s</CNPJ><indNFe>%d</indNFe><indEmi>%d</indEmi><ultNSU>%s</ultNSU></consNFeDest>
