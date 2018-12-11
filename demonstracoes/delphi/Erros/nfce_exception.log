@@ -1,1 +1,2 @@
 [08/08/2018 16:17:20:283] 16548 - EspdNFCeConfigException : Erro ao carregar configurações: Access violation at address 0040E9ED in module 'DemoNFCe.exe'. Read of address 00000004
+[11/12/2018 11:32:34:404] 13616 - EspdNFCeCheckParamsException : O caminho configurado para salvar o XMLDestinatario é inválido. C:\Users\helio.souza\Documents\Demos Geral\DemonstracaoNFCe\XmlDestinatario\
