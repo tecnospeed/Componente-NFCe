@@ -1,0 +1,1 @@
+<nfeResultMsg xmlns="http://www.portalfiscal.inf.br/nfe/wsdl/NFeStatusServico4"><retConsStatServ versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>1</tpAmb><verAplic>PR-v4_2_2</verAplic><cStat>107</cStat><xMotivo>Servico em Operacao</xMotivo><cUF>41</cUF><dhRecbto>2018-12-13T09:34:52-02:00</dhRecbto><tMed>1</tMed></retConsStatServ></nfeResultMsg>
