@@ -87,7 +87,7 @@ object frmPrincipal: TfrmPrincipal
     Left = 294
     Top = 175
     Width = 147
-    Height = 242
+    Height = 274
     Caption = 'Outras Opera'#231#245'es'
     TabOrder = 21
   end
@@ -117,7 +117,7 @@ object frmPrincipal: TfrmPrincipal
     end
   end
   object cbCertificado: TComboBox
-    Left = 0
+    Left = 8
     Top = 0
     Width = 431
     Height = 21
@@ -308,6 +308,15 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 23
     OnClick = btnXmlDestinatarioClick
   end
+  object btnxmlDestInuti: TButton
+    Left = 305
+    Top = 413
+    Width = 126
+    Height = 25
+    Caption = 'Gerar XML Desti Inut'
+    TabOrder = 24
+    OnClick = btnxmlDestInutiClick
+  end
   object spdNFCe: TspdNFCe
     VersaoManual = vm50
     DanfceSettings.FraseContingencia = 
@@ -326,7 +335,7 @@ object frmPrincipal: TfrmPrincipal
       's\Vm50\Danfce\retrato.rtm'
     DanfceSettings.FormatoDanfce = fdNormal
     DanfceSettings.ExibirDetalhamento = True
-    Versao = '7.0.46.4641'
+    Versao = '7.1.47.8639'
     CaracteresRemoverAcentos = #225#233#237#243#250#224#232#236#242#249#226#234#238#244#251#228#235#239#246#252#227#245#241#231#193#201#205#211#218#192#200#204#210#217#194#202#206#212#219#196#203#207#214#220#195#213#209#199#186#170
     TipoCertificado = ckFile
     DiretorioTemplates = 'C:\Arquivos de programas\Embarcadero\RAD Studio\9.0\Bin\vm50\'
@@ -346,6 +355,7 @@ object frmPrincipal: TfrmPrincipal
     DiretorioTemporario = 'C:\Documents and Settings\All Users\Dados de aplicativos\'
     EntregaXML = exEmail
     HashCertificado = '00000000000000000000000000000000'
+    DiagnosticMode = True
     Left = 272
     Top = 440
   end
@@ -358,6 +368,10 @@ object frmPrincipal: TfrmPrincipal
   end
   object dlgTx2: TOpenDialog
     Left = 240
+    Top = 440
+  end
+  object dlgXml: TOpenDialog
+    Left = 304
     Top = 440
   end
 end

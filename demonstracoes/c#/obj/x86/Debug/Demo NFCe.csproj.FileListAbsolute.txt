@@ -38,3 +38,17 @@ C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\
 C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFCe.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.exe
 C:\Users\Administrador\Desktop\C# VS2012 - NFCe\Demo NFCe - VS2012 - C#\obj\x86\Debug\Demo NFe.pdb
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\bin\Debug\Demo NFe.exe
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\bin\Debug\Demo NFe.pdb
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csprojAssemblyReference.cache
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Interop.NFCeX.dll
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.ResolveComReference.cache
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.GenerateResource.cache
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.CoreCompileInputs.cache
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFe.exe
+C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFe.pdb

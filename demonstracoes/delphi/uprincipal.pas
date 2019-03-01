@@ -44,6 +44,8 @@ type
     GroupBoxOutros: TGroupBox;
     btnEmitCancelada: TButton;
     btnXmlDestinatario: TButton;
+    dlgXml: TOpenDialog;
+    btnxmlDestInuti: TButton;
     procedure FormCreate(Sender: TObject);
     procedure cbCertificadoChange(Sender: TObject);
     procedure btnIniClick(Sender: TObject);
@@ -70,6 +72,7 @@ type
     procedure btnSalvarConfigClick(Sender: TObject);
     procedure btnEmitCanceladaClick(Sender: TObject);
     procedure btnXmlDestinatarioClick(Sender: TObject);
+    procedure btnxmlDestInutiClick(Sender: TObject);
   private
     _NumeroLote : String;
     _Dir: String;
@@ -144,6 +147,7 @@ end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
+  spdNFCe.ConfigurarSoftwareHouse('08187168000160','');
   frmPrincipal.Caption := 'Demo NFCe - ' + spdNFCe.Versao;
   spdNFCe.DanfceSettings.ExibirDetalhamento := true;
   spdNFCe.ListarCertificados(cbCertificado.Items);
@@ -196,7 +200,7 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
     Randomize;
     _NRNota                         := IntToStr(Random(100000));
     aDs.Campo('nNF_B08').Value      := _NRNota; //Número do Documento Fiscal
-    aDs.Campo('dhEmi_B09').Value    := FormatDateTime('YYYY-mm-dd"T"HH:mm:ss',now) + '-02:00'; //Data e Hora de emissão do Documento Fiscal
+    aDs.Campo('dhEmi_B09').Value    := FormatDateTime('YYYY-mm-dd"T"HH:mm:ss',now) + '-03:00'; //Data e Hora de emissão do Documento Fiscal
     aDs.Campo('tpNF_B11').Value     := '1'; //Tipo de Operação: 0-entrada / 1-saída.
 	  aDs.Campo('idDest_B11a').Value  := '1'; //Identificador de local de destino da operação: 1- Operação interna; 2- Operação interestadual; 3- Operação com exterior.
     aDs.Campo('cMunFG_B12').Value   := '4115200'; //Código do Município de Ocorrência do Fato Gerador (Codigo Maringa)
@@ -453,22 +457,71 @@ begin
     mmXml.Text := spdNFCe.ConverterLoteParaXml(dlgTx2.FileName, lkTXTDataSet, pl_009);
 
   edtId.Text := obterNroResultado(mmXml.Text,'Id="NF','" versao="4.00"><ide');
-  dlgTx2.Free;
+  //dlgTx2.Free;
 end;
 
 procedure TfrmPrincipal.btnVisualizarClick(Sender: TObject);
 begin
   if (edtId.Text <> '') then
     mmXml.Text := LoadXmlDestinatario(edtId.Text);
-  spdNFCe.VisualizarDanfce('1', mmXml.Text);
+    spdNFCe.VisualizarDanfce('1', mmXml.Text);
 end;
 
 
 
 procedure TfrmPrincipal.btnXmlDestinatarioClick(Sender: TObject);
-begin
-    spdNFCe.GerarXMLEnvioDestinatario(edtId.Text,edtId.Text + '-env-sinc-lot.xml',edtId.Text + '-env-sinc-ret.xml',spdNFCe.DiretorioXmlDestinatario + edtId.Text + '-nfce.xml');
-end;
+   var
+      _arq: TStringList;
+      aut, canc, _lote: String;
+  begin
+        _arq := TStringList.Create;
+      dlgXml.InitialDir := ExtractFilePath(ParamStr(0)); //Abre Dialog para localizar arquivo
+      dlgXml.Execute;
+      if dlgXml.FileName <> '' then
+      begin
+         _arq.LoadFromFile(dlgXml.FileName);
+         aut := _arq.Text; //armazena o XML lido dentro da variável aut
+     end;
+
+     _arq.Free;
+     dlgXml.InitialDir := ExtractFilePath(ParamStr(0)); //Abre Dialog para localizar arquivo
+     dlgXml.Execute;
+     if dlgXml.FileName <> '' then
+     begin
+         _arq.LoadFromFile(dlgXml.FileName);
+         canc := _arq.Text; //armazena o XML lido dentro da variável canc
+     end;
+
+     _lote := aut + canc; //concatena os dois arquivos
+     spdNFCe.ImprimirDanfce('0', _lote); //solicita a impressão
+  end;
+
+procedure TfrmPrincipal.btnxmlDestInutiClick(Sender: TObject);
+   var
+      _arq: TStringList;
+      env, ret, _lote: String;
+  begin
+      _arq := TStringList.Create;
+      dlgXml.InitialDir := ExtractFilePath(ParamStr(0)); //Abre Dialog para localizar arquivo
+      dlgXml.Execute;
+      if dlgXml.FileName <> '' then
+      begin
+         _arq.LoadFromFile(dlgXml.FileName);
+         env := _arq.Text; //armazena o XML lido dentro da variável aut
+     end;
+
+     _arq.Free;
+     dlgXml.InitialDir := ExtractFilePath(ParamStr(0)); //Abre Dialog para localizar arquivo
+     dlgXml.Execute;
+     if dlgXml.FileName <> '' then
+     begin
+         _arq.LoadFromFile(dlgXml.FileName);
+         ret := _arq.Text; //armazena o XML lido dentro da variável canc
+     end;
+
+     _lote := ret + env; //concatena os dois arquivos
+     mmXml.Text := spdNFCe.GerarxmlDestinatarioInutilizacao(ret,env); //solicita a impressão
+  end;
 
 procedure TfrmPrincipal.ButtonGerarXMLDestClick(Sender: TObject);
 begin
