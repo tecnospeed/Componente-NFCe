@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Integrador>
+	<Identificador>
+		<Valor>%s</Valor>
+	</Identificador>
+	<Componente Nome="NFCE">
+		<Metodo Nome="%s">
+			<Parametros>
+				<Parametro>
+					<Nome>numeroSessao</Nome>
+					<Valor>%s</Valor>
+				</Parametro> 
+				<Parametro>
+					<Nome>versaoDados</Nome>
+					<Valor>%s</Valor>
+				</Parametro> 
+				<Parametro>
+					<Nome>cUF</Nome>
+					<Valor>23</Valor>
+				</Parametro>                
+				<Parametro>
+					<Nome>dados</Nome>
+					<Valor>%s</Valor>
+				</Parametro>
+			</Parametros>
+		</Metodo>
+	</Componente>
+</Integrador>
