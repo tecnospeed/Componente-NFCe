@@ -46,6 +46,9 @@ type
     btnXmlDestinatario: TButton;
     dlgXml: TOpenDialog;
     btnxmlDestInuti: TButton;
+    mmConsulta: TMemo;
+    Label1: TLabel;
+    Label2: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure cbCertificadoChange(Sender: TObject);
     procedure btnIniClick(Sender: TObject);
@@ -167,13 +170,13 @@ end;
 
 procedure TfrmPrincipal.btnCancelarClick(Sender: TObject);
 begin
-  mmXml.Text := spdNFCe.CancelarNF(edtId.Text,edtProtocolo.Text,'Justificativa Teste de Cancelamento',
+  mmConsulta.Text := spdNFCe.CancelarNF(edtId.Text,edtProtocolo.Text,'Justificativa Teste de Cancelamento',
                                     FormatDateTime('YYYY-MM-DD"T"HH:MM:SS',Now),1,'-02:00');
 end;
 
 procedure TfrmPrincipal.btnConsultarNFCeClick(Sender: TObject);
 begin
-  mmXml.Text := spdNFCe.ConsultarNF(edtId.Text);
+  mmConsulta.Text := spdNFCe.ConsultarNF(edtId.Text);
   edtProtocolo.Text := obterNroResultado(mmXml.Text, '<nProt','</nProt');
 end;
 
@@ -191,7 +194,7 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
   begin
     aDs.campo('versao_A02').Value   := '4.00'; //Versão do leiaute
     aDs.Campo('cUF_B02').Value      := '41'; //Código da UF do emitente do Documento Fiscal
-    aDs.Campo('cNF_B03').Value      := '12345678'; //Código Numérico que compõe a Chave de Acesso
+    aDs.Campo('cNF_B03').Value      := '00005678'; //Código Numérico que compõe a Chave de Acesso
     aDs.Campo('natOp_B04').Value    := 'VENDA MERC.ADQ.REC.TERC'; //Descrição da Natureza da Operação
     //remobido na 4.00 indPag_B05
     aDs.Campo('mod_B06').Value      := '65'; //Modelo do Documento Fiscal
@@ -301,7 +304,7 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
     aDs.Campo('vTotTrib_M02').Value := '1.00'; //Valor Total dos Tributos no Item
 
     aDs.Campo('orig_N11').Value     := '0'; //Origem da mercadoria
-    aDs.Campo('CST_N12').Value      := '40'; //Tributação do ICMS
+    aDs.Campo('CST_N12').Value      := '90'; //Tributação do ICMS
 
     spdNFCeDataSets.SalvarItem;
   end;
@@ -408,7 +411,7 @@ end;
 
 procedure TfrmPrincipal.btnEnviarSincronoClick(Sender: TObject);
 begin
-  mmXml.Text := spdNFCe.EnviarNFSincrono('0001',mmXml.Text);
+  mmConsulta.Text := spdNFCe.EnviarNFSincrono('0001',mmXml.Text);
   edtProtocolo.Text := obterNroResultado(mmXml.Text, '<nProt','</nProt');
 end;
 
@@ -446,7 +449,7 @@ end;
 
 procedure TfrmPrincipal.btnStatusClick(Sender: TObject);
 begin
-  mmXml.Text := spdNFCe.StatusDoServico;
+  mmConsulta.Text := spdNFCe.StatusDoServico;
 end;
 
 procedure TfrmPrincipal.btnTx2400Click(Sender: TObject);
