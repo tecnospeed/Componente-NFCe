@@ -1,4 +1,10 @@
-﻿## [8.1.56.8747]
+﻿## [8.1.57.8754]
+
+**Novidades**
+
+* DC-647 - Disponibilizado instalação manual do componente no pacote full sources.
+
+## [8.1.56.8747]
 
 **Novidades**
 
@@ -22,6 +28,7 @@
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
