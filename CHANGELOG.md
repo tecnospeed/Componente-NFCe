@@ -1,4 +1,12 @@
-﻿## [8.1.57.8754]
+﻿## [8.1.58.8762]
+
+**Novidades**
+
+* DC-991 - Alteração no retorno da validação de senha do método GetVencimentoCertificado.
+
+* DC-1178 - Removido integração do Nota Segura do componente NFCe.
+
+## [8.1.57.8754]
 
 **Novidades**
 
@@ -28,6 +36,7 @@
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
