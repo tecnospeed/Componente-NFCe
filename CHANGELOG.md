@@ -1,4 +1,22 @@
-﻿## [8.1.58.8762]
+﻿## [8.1.59.8771]
+
+**Correções**
+
+* #DC-1155 - Resolver problema no seguinte cenário:
+- Sistema feito em Delphi, com componente dropado em tela.
+- O componente não estava instalado.
+- Ao abrir tela com componente dropado, levantava exceção mesmo sem ter executado o componente.
+
+* #DC-1279 - Correções no preenchimento dos xmls de comunicação com Integrador do Ceará.
+
+**Novidades**
+
+* DC-1248 - Adicionada a propriedade infCplQuebrarLinhaAut para configuração quebra de linha automatica. Documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
+
+* DC-1257 - Adicionando nova propriedade de impressão - ExibirAcrescimoEDesconto. Documentação:  
+https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
+
+## [8.1.58.8762]
 
 **Novidades**
 
@@ -36,6 +54,7 @@
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
