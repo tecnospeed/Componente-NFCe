@@ -1,4 +1,10 @@
-﻿## [8.1.59.8771]
+﻿## [8.1.60.8774]
+
+**Novidades:**
+
+#DC-550 - Compatibilizado o componente com o novo Delphi 10.4 Sydney.
+
+## [8.1.59.8771]
 
 **Correções**
 
@@ -54,6 +60,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
