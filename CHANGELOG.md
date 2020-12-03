@@ -1,4 +1,14 @@
-﻿## [8.1.60.8774]
+﻿## [8.1.61.8780]
+
+**Novidades:**
+
+* #DC-1708 - Tratamento para casas decimais no campo vUnCom passado na impressão. 
+* #DC-1526 - Adicionando nova propriedade de impressão nos parametros avançados - DiretorioImpressao.
+             [Documentação](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360009039373).
+* #DC-1257 - Adicionando nova propriedade de impressão - ExibirAcrescimoEDesconto.
+             [Documentação.](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634)
+
+## [8.1.60.8774]
 
 **Novidades:**
 
@@ -60,6 +70,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
