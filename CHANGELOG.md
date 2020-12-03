@@ -2,7 +2,7 @@
 
 **Novidades:**
 
-#DC-550 - Compatibilizado o componente com o novo Delphi 10.4 Sydney.
+* #DC-550 - Compatibilizado o componente com o novo Delphi 10.4 Sydney.
 
 ## [8.1.59.8771]
 
