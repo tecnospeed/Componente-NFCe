@@ -1,4 +1,8 @@
-﻿## [8.1.61.8780]
+﻿## [8.1.61.8781]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [8.1.61.8780]
 
 **Novidades:**
 
@@ -70,6 +74,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
