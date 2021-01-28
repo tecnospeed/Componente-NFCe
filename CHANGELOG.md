@@ -1,4 +1,11 @@
-﻿## [8.1.61.8781]
+﻿## [9.1.61.8782]
+
+**Novidades**
+
+- DC-2066 - Atualização das urls de consulta e qrCode para SC.
+
+
+## [8.1.61.8781]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -74,6 +81,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
