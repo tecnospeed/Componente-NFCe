@@ -1,4 +1,13 @@
-﻿## [9.1.61.8782]
+﻿## [9.1.62.8785]
+
+**Novidades**
+
+- DC-2181 - Compatibilizado o componente com a NT 2020/006 v1.00. 
+- Maiores informações sobre a NT https://blog.tecnospeed.com.br/nota-tecnica-2020-006-da-nfe-e-nfce/
+- Para quem preenche a nota via Dataset ou TX2, os campos adicionados foram indIntermed_B25c, CNPJ_YB02 e idCadIntTran_YB03.
+
+
+## [9.1.61.8782]
 
 **Novidades**
 
@@ -81,6 +90,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
