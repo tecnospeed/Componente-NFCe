@@ -1,4 +1,15 @@
-﻿## [9.1.62.8785]
+﻿## [9.1.63.8789]
+
+**Novidades**
+
+- DC-2333 - Exibir as novas formas de pagamentos na DANFCe, para ficar compatível com a NT 2020/006 v1.00.
+
+**Correções**
+- DC-2370 - Voltar a exibir a quantidade do item no DANFCe com até 4 casas.
+
+
+
+## [9.1.62.8785]
 
 **Novidades**
 
@@ -90,6 +101,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
