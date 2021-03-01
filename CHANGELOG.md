@@ -1,4 +1,10 @@
-﻿## [9.1.63.8789]
+﻿## [9.1.64.8790]
+
+**Correções**
+
+- DC-2369 - Correção para o preenchimento dos campos xPed_I60 e nItemPed_I61 da vm60.
+
+## [9.1.63.8789]
 
 **Novidades**
 
@@ -101,6 +107,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
