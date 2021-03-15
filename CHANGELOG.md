@@ -1,4 +1,8 @@
-﻿## [9.1.64.8790]
+﻿## [9.1.64.8791]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [9.1.64.8790]
 
 **Correções**
 
@@ -107,6 +111,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
