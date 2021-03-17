@@ -46,9 +46,7 @@ type
     btnXmlDestinatario: TButton;
     dlgXml: TOpenDialog;
     btnxmlDestInuti: TButton;
-    mmConsulta: TMemo;
-    Label1: TLabel;
-    Label2: TLabel;
+    mmXmlDenegado: TMemo;
     procedure FormCreate(Sender: TObject);
     procedure cbCertificadoChange(Sender: TObject);
     procedure btnIniClick(Sender: TObject);
@@ -67,7 +65,7 @@ type
     procedure ButtonInutilizarClick(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure ButtonEmailClick(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
+    procedure btnImprimirDenegadaClick(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure btnDS4Click(Sender: TObject);
@@ -150,7 +148,7 @@ end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
-  spdNFCe.ConfigurarSoftwareHouse('08187168000160','');
+ //spdNFCe.ConfigurarSoftwareHouse('08187168000160','');
   frmPrincipal.Caption := 'Demo NFCe - ' + spdNFCe.Versao;
   spdNFCe.DanfceSettings.ExibirDetalhamento := true;
   spdNFCe.ListarCertificados(cbCertificado.Items);
@@ -170,13 +168,13 @@ end;
 
 procedure TfrmPrincipal.btnCancelarClick(Sender: TObject);
 begin
-  mmConsulta.Text := spdNFCe.CancelarNF(edtId.Text,edtProtocolo.Text,'Justificativa Teste de Cancelamento',
+  mmXml.Text := spdNFCe.CancelarNF(edtId.Text,edtProtocolo.Text,'Justificativa Teste de Cancelamento',
                                     FormatDateTime('YYYY-MM-DD"T"HH:MM:SS',Now),1,'-02:00');
 end;
 
 procedure TfrmPrincipal.btnConsultarNFCeClick(Sender: TObject);
 begin
-  mmConsulta.Text := spdNFCe.ConsultarNF(edtId.Text);
+  mmXml.Text := spdNFCe.ConsultarNF(edtId.Text);
   edtProtocolo.Text := obterNroResultado(mmXml.Text, '<nProt','</nProt');
 end;
 
@@ -194,7 +192,7 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
   begin
     aDs.campo('versao_A02').Value   := '4.00'; //Versão do leiaute
     aDs.Campo('cUF_B02').Value      := '41'; //Código da UF do emitente do Documento Fiscal
-    aDs.Campo('cNF_B03').Value      := '00005678'; //Código Numérico que compõe a Chave de Acesso
+    aDs.Campo('cNF_B03').Value      := '13469880'; //Código Numérico que compõe a Chave de Acesso
     aDs.Campo('natOp_B04').Value    := 'VENDA MERC.ADQ.REC.TERC'; //Descrição da Natureza da Operação
     //remobido na 4.00 indPag_B05
     aDs.Campo('mod_B06').Value      := '65'; //Modelo do Documento Fiscal
@@ -229,6 +227,9 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
 	{Indicador de presença do comprador no estabelecimento comercial no momento da operação:
 	0- Não se aplica (por exemplo, Nota Fiscal complementar ou de ajuste); 1- Operação presencial; 2- Operação não presencial, pela Internet;
 	3- Operação não presencial, Teleatendimento; 9- Operação não presencial, outros.}
+
+    aDs.Campo('indIntermed_B25c').Value   := '0';  //campo incluido na NT 2020.006
+
     aDs.Campo('procEmi_B26').Value  := '0';
 	{Processo de emissão: Identificador do processo de emissão da NF-e: 0 - emissão de NF-e com aplicativo do contribuinte; 1 - emissão de NF-e avulsa pelo
 	Fisco; 2 - emissão de NF-e avulsa, pelo contribuinte com seu certificado digital, através do site do Fisco; 3- emissão NF-e pelo contribuinte com
@@ -344,6 +345,11 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
     aDs.Campo('vTroco_YA09').Value := '0.00'; //Valor do Troco
     aDs.SalvarPart('YA');
 
+    ads.Campo('CNPJ_ZD02').Value := '08187168000160';
+    ads.Campo('xContato_ZD04').Value := 'Nome do Contato';
+    ads.Campo('email_ZD05').Value := 'email@empresaficticia.com.br';
+    ads.Campo('fone_ZD06').Value := '41999999999';
+
     ads.Campo('infCpl_Z03').Value := 'VEND:LUB-REG.1                      Pre-venda: 14823|DOC.EMITIDO POR EPP OPTANTE PELO SIMPLES NACIONL PRAZO MAXIMO P/DEV.07 DIAS E C/PREVIA AUTORIZAC |';
     ads.Campo('infAdFisco_Z02').Value := 'CERT.NEGATIVA Nr.: 0012143331   Cod.autenticidade: TT9BATL2TBBAT2AL    |ICMS RECOLHIDO ANTECIPADAMENTE POR SUBST. TRIB. CFE ART. 47 E/OU 50  DO ANEXO VIII E ART. 6 DO ANEXO XIV DO RICMS-MT';
   end;
@@ -411,7 +417,7 @@ end;
 
 procedure TfrmPrincipal.btnEnviarSincronoClick(Sender: TObject);
 begin
-  mmConsulta.Text := spdNFCe.EnviarNFSincrono('0001',mmXml.Text);
+  mmXml.Text := spdNFCe.EnviarNFSincrono('0001',mmXml.Text);
   edtProtocolo.Text := obterNroResultado(mmXml.Text, '<nProt','</nProt');
 end;
 
@@ -425,7 +431,7 @@ end;
 procedure TfrmPrincipal.btnImprimirClick(Sender: TObject);
 begin
   if (edtId.Text <> '') then
-    mmXml.Text := LoadXmlDestinatario(edtId.Text);
+   mmXml.Text := LoadXmlDestinatario(edtId.Text);
   spdNFCe.ImprimirDanfce('1', mmXml.Text);
 end;
 
@@ -449,7 +455,7 @@ end;
 
 procedure TfrmPrincipal.btnStatusClick(Sender: TObject);
 begin
-  mmConsulta.Text := spdNFCe.StatusDoServico;
+  mmXml.Text := spdNFCe.StatusDoServico;
 end;
 
 procedure TfrmPrincipal.btnTx2400Click(Sender: TObject);
@@ -559,9 +565,9 @@ begin
   spdNFCe.EnviarNotaDestinatario(edtId.Text, '', '');
 end;
 
-procedure TfrmPrincipal.Button1Click(Sender: TObject);
+procedure TfrmPrincipal.btnImprimirDenegadaClick(Sender: TObject);
 begin
-  mmXml.Text := spdNFCe.MontarEPEC('1', mmXml.Text, FormatDateTime('YYYY-mm-dd"T"HH:mm:ss',now));
+ spdNFCe.ImprimirDanfce('1', mmXmlDenegado.text);
 end;
 
 procedure TfrmPrincipal.Button3Click(Sender: TObject);
