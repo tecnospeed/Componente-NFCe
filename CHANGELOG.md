@@ -1,4 +1,12 @@
-﻿## [9.1.64.8791]
+﻿## [9.1.65.8794]
+
+**Correções**
+
+- DC-2267: Correção no retorno da data de vencimento do certificado ao utilizar usando caminho do .pfx e senha.
+
+- DC-2205: Corrigindo campo de observações no RTM Retrato.
+
+## [9.1.64.8791]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -111,6 +119,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
