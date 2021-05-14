@@ -1,4 +1,15 @@
-﻿## [9.1.65.8794]
+﻿## [9.1.66.8796]
+
+**Novidades**
+
+- DC-2566 - Compatibilizado componente com NT 2020/006 v1.20. <br>
+            Documentação: https://blog.tecnospeed.com.br/nota-tecnica-2020-006-da-nfe-e-nfce/
+
+**Correções**
+
+- DC-2922 - Atualizada PosPrinter.dll para que campo ItemVUnit seja exibido com 4 casas decimais.
+
+## [9.1.65.8794]
 
 **Correções**
 
@@ -119,6 +130,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
