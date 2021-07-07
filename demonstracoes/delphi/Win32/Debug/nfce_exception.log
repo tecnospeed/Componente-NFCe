@@ -1,0 +1,5 @@
+[20/04/2021 12:20:31:410] 2256 - EspdNFCeCheckParamsException : a sigla da UF , é inválida.
+[20/04/2021 12:20:33:919] 2256 - EspdConfigINIException : Arquivo C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\delphi\Win32\Debug\nfceConfig.ini não foi encontrado
+[20/04/2021 12:20:42:308] 2256 - EspdConfigINIException : Arquivo C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\delphi\Win32\Debug\nfceConfig.ini não foi encontrado
+[20/04/2021 12:22:00:783] 2256 - EspdConfigINIException : Arquivo C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\delphi\Win32\Debug\nfceConfig.ini não foi encontrado
+[20/04/2021 12:22:10:546] 2292 - EspdConfigINIException : Arquivo C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\delphi\Win32\Debug\nfceConfig.ini não foi encontrado

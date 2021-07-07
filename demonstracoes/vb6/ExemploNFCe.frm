@@ -54,7 +54,7 @@ Begin VB.Form FrmExemplo
       Top             =   0
       Width           =   5775
       Begin VB.Frame gbImpressao 
-         Caption         =   "Impressão do Dacte"
+         Caption         =   "Impressão do Danfce"
          BeginProperty Font 
             Name            =   "MS Sans Serif"
             Size            =   8.25
@@ -424,6 +424,14 @@ Private Function GetCurrentTimeBias() As String
    GetCurrentTimeBias = tmp
    
 End Function
+
+Private Sub btnConfiguraIni_DragDrop(Source As Control, X As Single, Y As Single)
+
+End Sub
+
+Private Sub Form_Activate()
+
+End Sub
 
 'Inicialização
 Private Sub Form_Initialize()
@@ -901,3 +909,23 @@ End Function
             NFCeDataSet.SetCampo "email_ZD05=claudia@programaconsumer.com.b"
             NFCeDataSet.SetCampo "fone_ZD06=1126265184"
         End Sub
+
+Private Sub Form_Paint()
+
+End Sub
+
+Private Sub Form_Resize()
+
+End Sub
+
+Private Sub Form_Terminate()
+
+End Sub
+
+Private Sub Form_Unload(Cancel As Integer)
+
+End Sub
+
+Private Sub gbImpressao_DragDrop(Source As Control, X As Single, Y As Single)
+
+End Sub

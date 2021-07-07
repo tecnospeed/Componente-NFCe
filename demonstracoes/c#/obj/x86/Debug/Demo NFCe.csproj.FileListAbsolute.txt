@@ -52,3 +52,17 @@ C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\
 C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.CoreCompileInputs.cache
 C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFe.exe
 C:\Users\matheus.carvalho\Documents\GitHub\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFe.pdb
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\bin\Debug\Demo NFe.exe
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\bin\Debug\Demo NFe.pdb
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Interop.NFCeDataSetX.dll
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Interop.NFCeX.dll
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Interop.StdVCL.dll
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.ResolveComReference.cache
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo_NFe.frmPrincipal.resources
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo_NFe.frmEventos.resources
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo_NFe.Properties.Resources.resources
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.GenerateResource.cache
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFe.exe
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFe.pdb
+C:\Users\guilherme.noce\Desktop\DEV\Componente-NFCe\demonstracoes\c#\obj\x86\Debug\Demo NFCe.csprojAssemblyReference.cache

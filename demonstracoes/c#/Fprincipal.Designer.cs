@@ -40,8 +40,6 @@
             this.btnAssinar = new System.Windows.Forms.Button();
             this.btnConsultarNF = new System.Windows.Forms.Button();
             this.btnEnviarNF = new System.Windows.Forms.Button();
-            this.btnGerarTx2 = new System.Windows.Forms.Button();
-            this.btnGerarDataSet = new System.Windows.Forms.Button();
             this.btnStatus = new System.Windows.Forms.Button();
             this.btnIni = new System.Windows.Forms.Button();
             this.btnLoadConfig = new System.Windows.Forms.Button();
@@ -63,11 +61,29 @@
             this.btnGerarXMLDestinatario = new System.Windows.Forms.Button();
             this.btnGerarDataSet400 = new System.Windows.Forms.Button();
             this.btnTX240 = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnSalvarConfig = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.dlgTx2Consulta = new System.Windows.Forms.OpenFileDialog();
+            this.Inutilização = new System.Windows.Forms.GroupBox();
+            this.btnEnviarInutilizacao = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.edtInutJustificativa = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.edtInutFaixaFim = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.edtInutFaixaIni = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.edtInutSerie = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.edtInutAno = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.Inutilização.SuspendLayout();
             this.SuspendLayout();
             // 
             // mmXml
@@ -87,7 +103,7 @@
             this.groupBox1.Controls.Add(this.btnImprimir);
             this.groupBox1.Controls.Add(this.btnEditarDanfe);
             this.groupBox1.Controls.Add(this.btnPrever);
-            this.groupBox1.Location = new System.Drawing.Point(295, 168);
+            this.groupBox1.Location = new System.Drawing.Point(295, 162);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(155, 220);
             this.groupBox1.TabIndex = 45;
@@ -156,9 +172,9 @@
             // 
             // btnInutilizar
             // 
-            this.btnInutilizar.Location = new System.Drawing.Point(153, 351);
+            this.btnInutilizar.Location = new System.Drawing.Point(8, 202);
             this.btnInutilizar.Name = "btnInutilizar";
-            this.btnInutilizar.Size = new System.Drawing.Size(122, 25);
+            this.btnInutilizar.Size = new System.Drawing.Size(120, 25);
             this.btnInutilizar.TabIndex = 44;
             this.btnInutilizar.Text = "8. Inutilizar Numeração";
             this.btnInutilizar.UseVisualStyleBackColor = true;
@@ -166,19 +182,19 @@
             // 
             // btnAssinar
             // 
-            this.btnAssinar.Location = new System.Drawing.Point(153, 193);
+            this.btnAssinar.Location = new System.Drawing.Point(8, 49);
             this.btnAssinar.Name = "btnAssinar";
-            this.btnAssinar.Size = new System.Drawing.Size(122, 25);
+            this.btnAssinar.Size = new System.Drawing.Size(120, 25);
             this.btnAssinar.TabIndex = 42;
-            this.btnAssinar.Text = "3. Assinar XML";
+            this.btnAssinar.Text = "Assinar XML";
             this.btnAssinar.UseVisualStyleBackColor = true;
             this.btnAssinar.Click += new System.EventHandler(this.btnAssinar_Click);
             // 
             // btnConsultarNF
             // 
-            this.btnConsultarNF.Location = new System.Drawing.Point(153, 320);
+            this.btnConsultarNF.Location = new System.Drawing.Point(8, 171);
             this.btnConsultarNF.Name = "btnConsultarNF";
-            this.btnConsultarNF.Size = new System.Drawing.Size(122, 25);
+            this.btnConsultarNF.Size = new System.Drawing.Size(120, 25);
             this.btnConsultarNF.TabIndex = 41;
             this.btnConsultarNF.Text = "6. Consultar NFCe";
             this.btnConsultarNF.UseVisualStyleBackColor = true;
@@ -186,49 +202,29 @@
             // 
             // btnEnviarNF
             // 
-            this.btnEnviarNF.Location = new System.Drawing.Point(153, 224);
+            this.btnEnviarNF.Location = new System.Drawing.Point(8, 109);
             this.btnEnviarNF.Name = "btnEnviarNF";
-            this.btnEnviarNF.Size = new System.Drawing.Size(122, 25);
+            this.btnEnviarNF.Size = new System.Drawing.Size(120, 25);
             this.btnEnviarNF.TabIndex = 39;
-            this.btnEnviarNF.Text = "4.1 Enviar NFCe";
+            this.btnEnviarNF.Text = "Enviar Assincrono";
             this.btnEnviarNF.UseVisualStyleBackColor = true;
             this.btnEnviarNF.Click += new System.EventHandler(this.btnEnviarNF_Click);
             // 
-            // btnGerarTx2
-            // 
-            this.btnGerarTx2.Location = new System.Drawing.Point(6, 50);
-            this.btnGerarTx2.Name = "btnGerarTx2";
-            this.btnGerarTx2.Size = new System.Drawing.Size(122, 25);
-            this.btnGerarTx2.TabIndex = 38;
-            this.btnGerarTx2.Text = "2.1 Gerar Via Tx2";
-            this.btnGerarTx2.UseVisualStyleBackColor = true;
-            this.btnGerarTx2.Click += new System.EventHandler(this.btnGerarTx2_Click);
-            // 
-            // btnGerarDataSet
-            // 
-            this.btnGerarDataSet.Location = new System.Drawing.Point(6, 19);
-            this.btnGerarDataSet.Name = "btnGerarDataSet";
-            this.btnGerarDataSet.Size = new System.Drawing.Size(122, 25);
-            this.btnGerarDataSet.TabIndex = 37;
-            this.btnGerarDataSet.Text = "2. Gerar Via DataSet";
-            this.btnGerarDataSet.UseVisualStyleBackColor = true;
-            this.btnGerarDataSet.Click += new System.EventHandler(this.btnGerarDataSet_Click);
-            // 
             // btnStatus
             // 
-            this.btnStatus.Location = new System.Drawing.Point(12, 258);
+            this.btnStatus.Location = new System.Drawing.Point(8, 19);
             this.btnStatus.Name = "btnStatus";
-            this.btnStatus.Size = new System.Drawing.Size(122, 25);
+            this.btnStatus.Size = new System.Drawing.Size(120, 25);
             this.btnStatus.TabIndex = 36;
-            this.btnStatus.Text = "1. Verificar Status";
+            this.btnStatus.Text = "Verificar Status";
             this.btnStatus.UseVisualStyleBackColor = true;
             this.btnStatus.Click += new System.EventHandler(this.btnStatus_Click);
             // 
             // btnIni
             // 
-            this.btnIni.Location = new System.Drawing.Point(10, 196);
+            this.btnIni.Location = new System.Drawing.Point(8, 19);
             this.btnIni.Name = "btnIni";
-            this.btnIni.Size = new System.Drawing.Size(122, 25);
+            this.btnIni.Size = new System.Drawing.Size(119, 25);
             this.btnIni.TabIndex = 35;
             this.btnIni.Text = "Configurar Ini";
             this.btnIni.UseVisualStyleBackColor = true;
@@ -236,9 +232,9 @@
             // 
             // btnLoadConfig
             // 
-            this.btnLoadConfig.Location = new System.Drawing.Point(11, 227);
+            this.btnLoadConfig.Location = new System.Drawing.Point(8, 47);
             this.btnLoadConfig.Name = "btnLoadConfig";
-            this.btnLoadConfig.Size = new System.Drawing.Size(121, 22);
+            this.btnLoadConfig.Size = new System.Drawing.Size(119, 22);
             this.btnLoadConfig.TabIndex = 34;
             this.btnLoadConfig.Text = "Load Config";
             this.btnLoadConfig.UseVisualStyleBackColor = true;
@@ -265,11 +261,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(163, 52);
+            this.label3.Location = new System.Drawing.Point(166, 52);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(68, 13);
             this.label3.TabIndex = 31;
-            this.label3.Text = "ID NFe";
+            this.label3.Text = "Chave NFCe";
             // 
             // label2
             // 
@@ -335,9 +331,9 @@
             // 
             // btnEventos
             // 
-            this.btnEventos.Location = new System.Drawing.Point(295, 412);
+            this.btnEventos.Location = new System.Drawing.Point(296, 469);
             this.btnEventos.Name = "btnEventos";
-            this.btnEventos.Size = new System.Drawing.Size(155, 82);
+            this.btnEventos.Size = new System.Drawing.Size(155, 31);
             this.btnEventos.TabIndex = 46;
             this.btnEventos.Text = "Eventos NFCe";
             this.btnEventos.UseVisualStyleBackColor = true;
@@ -345,25 +341,25 @@
             // 
             // dlgTx2
             // 
-            this.dlgTx2.FileName = "openFileDialog1";
+            this.dlgTx2.FileName = "dlgTx2";
             // 
             // btnConsultarRecibo
             // 
-            this.btnConsultarRecibo.Location = new System.Drawing.Point(153, 289);
+            this.btnConsultarRecibo.Location = new System.Drawing.Point(8, 140);
             this.btnConsultarRecibo.Name = "btnConsultarRecibo";
-            this.btnConsultarRecibo.Size = new System.Drawing.Size(122, 25);
+            this.btnConsultarRecibo.Size = new System.Drawing.Size(120, 25);
             this.btnConsultarRecibo.TabIndex = 40;
-            this.btnConsultarRecibo.Text = "5. Consultar Recibo";
+            this.btnConsultarRecibo.Text = "Consultar Recibo";
             this.btnConsultarRecibo.UseVisualStyleBackColor = true;
             this.btnConsultarRecibo.Click += new System.EventHandler(this.btnConsultarRecibo_Click);
             // 
             // btnEnvioSincrono
             // 
-            this.btnEnvioSincrono.Location = new System.Drawing.Point(153, 258);
+            this.btnEnvioSincrono.Location = new System.Drawing.Point(8, 80);
             this.btnEnvioSincrono.Name = "btnEnvioSincrono";
-            this.btnEnvioSincrono.Size = new System.Drawing.Size(122, 25);
+            this.btnEnvioSincrono.Size = new System.Drawing.Size(120, 25);
             this.btnEnvioSincrono.TabIndex = 47;
-            this.btnEnvioSincrono.Text = "4.2 Enviar Sincrono";
+            this.btnEnvioSincrono.Text = " Enviar NFCe";
             this.btnEnvioSincrono.UseVisualStyleBackColor = true;
             this.btnEnvioSincrono.Click += new System.EventHandler(this.btnEnvioSincrono_Click);
             // 
@@ -371,7 +367,7 @@
             // 
             this.btnGerarXMLDestinatario.Location = new System.Drawing.Point(10, 469);
             this.btnGerarXMLDestinatario.Name = "btnGerarXMLDestinatario";
-            this.btnGerarXMLDestinatario.Size = new System.Drawing.Size(263, 38);
+            this.btnGerarXMLDestinatario.Size = new System.Drawing.Size(130, 38);
             this.btnGerarXMLDestinatario.TabIndex = 48;
             this.btnGerarXMLDestinatario.Text = "Gerar XML Destinatario";
             this.btnGerarXMLDestinatario.UseVisualStyleBackColor = true;
@@ -384,79 +380,228 @@
             this.btnGerarDataSet400.Name = "btnGerarDataSet400";
             this.btnGerarDataSet400.Size = new System.Drawing.Size(122, 25);
             this.btnGerarDataSet400.TabIndex = 49;
-            this.btnGerarDataSet400.Text = "2.1 DataSet 4.00";
+            this.btnGerarDataSet400.Text = "DataSet";
             this.btnGerarDataSet400.UseVisualStyleBackColor = true;
             this.btnGerarDataSet400.Click += new System.EventHandler(this.btnGerarDataSet400_Click);
             // 
             // btnTX240
             // 
-            this.btnTX240.Location = new System.Drawing.Point(6, 50);
+            this.btnTX240.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTX240.Location = new System.Drawing.Point(6, 47);
             this.btnTX240.Name = "btnTX240";
-            this.btnTX240.Size = new System.Drawing.Size(122, 25);
+            this.btnTX240.Size = new System.Drawing.Size(124, 25);
             this.btnTX240.TabIndex = 50;
-            this.btnTX240.Text = "2.1 Gerar Via Tx2";
+            this.btnTX240.Text = "TX2";
             this.btnTX240.UseVisualStyleBackColor = true;
             this.btnTX240.Click += new System.EventHandler(this.btnTX240_Click);
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnGerarDataSet);
-            this.groupBox2.Controls.Add(this.btnGerarTx2);
-            this.groupBox2.Location = new System.Drawing.Point(10, 289);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(143, 87);
-            this.groupBox2.TabIndex = 47;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "NFCe 3.10";
-            // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.btnGerarDataSet400);
             this.groupBox3.Controls.Add(this.btnTX240);
-            this.groupBox3.Location = new System.Drawing.Point(10, 382);
+            this.groupBox3.Controls.Add(this.btnGerarDataSet400);
+            this.groupBox3.Location = new System.Drawing.Point(10, 271);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(143, 81);
+            this.groupBox3.Size = new System.Drawing.Size(137, 81);
             this.groupBox3.TabIndex = 51;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "NFCe 4.0";
+            this.groupBox3.Text = "Geração NFCe";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnSalvarConfig);
+            this.groupBox2.Controls.Add(this.btnIni);
+            this.groupBox2.Controls.Add(this.btnLoadConfig);
+            this.groupBox2.Location = new System.Drawing.Point(11, 162);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(136, 103);
+            this.groupBox2.TabIndex = 52;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Geração NFCe";
+            // 
+            // btnSalvarConfig
+            // 
+            this.btnSalvarConfig.Location = new System.Drawing.Point(7, 72);
+            this.btnSalvarConfig.Name = "btnSalvarConfig";
+            this.btnSalvarConfig.Size = new System.Drawing.Size(120, 23);
+            this.btnSalvarConfig.TabIndex = 54;
+            this.btnSalvarConfig.Text = "Salvar";
+            this.btnSalvarConfig.UseVisualStyleBackColor = true;
+            this.btnSalvarConfig.Click += new System.EventHandler(this.btnSalvarConfig_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 13);
+            this.label6.TabIndex = 53;
+            this.label6.Text = "Certificados";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.btnStatus);
+            this.groupBox4.Controls.Add(this.btnAssinar);
+            this.groupBox4.Controls.Add(this.btnEnviarNF);
+            this.groupBox4.Controls.Add(this.btnEnvioSincrono);
+            this.groupBox4.Controls.Add(this.btnConsultarRecibo);
+            this.groupBox4.Controls.Add(this.btnInutilizar);
+            this.groupBox4.Controls.Add(this.btnConsultarNF);
+            this.groupBox4.Location = new System.Drawing.Point(152, 162);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(137, 338);
+            this.groupBox4.TabIndex = 54;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "groupBox4";
+            // 
+            // dlgTx2Consulta
+            // 
+            this.dlgTx2Consulta.FileName = "dlgTx2Consulta";
+            // 
+            // Inutilização
+            // 
+            this.Inutilização.Controls.Add(this.btnEnviarInutilizacao);
+            this.Inutilização.Controls.Add(this.label11);
+            this.Inutilização.Controls.Add(this.edtInutJustificativa);
+            this.Inutilização.Controls.Add(this.label9);
+            this.Inutilização.Controls.Add(this.edtInutFaixaFim);
+            this.Inutilização.Controls.Add(this.label10);
+            this.Inutilização.Controls.Add(this.edtInutFaixaIni);
+            this.Inutilização.Controls.Add(this.label8);
+            this.Inutilização.Controls.Add(this.edtInutSerie);
+            this.Inutilização.Controls.Add(this.label7);
+            this.Inutilização.Controls.Add(this.edtInutAno);
+            this.Inutilização.Location = new System.Drawing.Point(456, 13);
+            this.Inutilização.Name = "Inutilização";
+            this.Inutilização.Size = new System.Drawing.Size(139, 244);
+            this.Inutilização.TabIndex = 55;
+            this.Inutilização.TabStop = false;
+            this.Inutilização.Text = "Inutilização";
+            this.Inutilização.Visible = false;
+            // 
+            // btnEnviarInutilizacao
+            // 
+            this.btnEnviarInutilizacao.Location = new System.Drawing.Point(6, 213);
+            this.btnEnviarInutilizacao.Name = "btnEnviarInutilizacao";
+            this.btnEnviarInutilizacao.Size = new System.Drawing.Size(125, 23);
+            this.btnEnviarInutilizacao.TabIndex = 10;
+            this.btnEnviarInutilizacao.Text = "Inutilizar Numeração";
+            this.btnEnviarInutilizacao.UseVisualStyleBackColor = true;
+            this.btnEnviarInutilizacao.Click += new System.EventHandler(this.btnEnviarInutilizacao_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 171);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(62, 13);
+            this.label11.TabIndex = 9;
+            this.label11.Text = "Justificativa";
+            // 
+            // edtInutJustificativa
+            // 
+            this.edtInutJustificativa.Location = new System.Drawing.Point(6, 187);
+            this.edtInutJustificativa.Name = "edtInutJustificativa";
+            this.edtInutJustificativa.Size = new System.Drawing.Size(125, 20);
+            this.edtInutJustificativa.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 132);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(57, 13);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Faixa Final";
+            // 
+            // edtInutFaixaFim
+            // 
+            this.edtInutFaixaFim.Location = new System.Drawing.Point(6, 148);
+            this.edtInutFaixaFim.Name = "edtInutFaixaFim";
+            this.edtInutFaixaFim.Size = new System.Drawing.Size(125, 20);
+            this.edtInutFaixaFim.TabIndex = 6;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(6, 93);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(62, 13);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "Faixa Inicial";
+            // 
+            // edtInutFaixaIni
+            // 
+            this.edtInutFaixaIni.Location = new System.Drawing.Point(6, 109);
+            this.edtInutFaixaIni.Name = "edtInutFaixaIni";
+            this.edtInutFaixaIni.Size = new System.Drawing.Size(125, 20);
+            this.edtInutFaixaIni.TabIndex = 4;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 54);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Serie";
+            // 
+            // edtInutSerie
+            // 
+            this.edtInutSerie.Location = new System.Drawing.Point(6, 70);
+            this.edtInutSerie.Name = "edtInutSerie";
+            this.edtInutSerie.Size = new System.Drawing.Size(125, 20);
+            this.edtInutSerie.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(26, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Ano";
+            // 
+            // edtInutAno
+            // 
+            this.edtInutAno.Location = new System.Drawing.Point(6, 31);
+            this.edtInutAno.Name = "edtInutAno";
+            this.edtInutAno.Size = new System.Drawing.Size(125, 20);
+            this.edtInutAno.TabIndex = 0;
             // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 512);
+            this.ClientSize = new System.Drawing.Size(929, 512);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnGerarXMLDestinatario);
-            this.Controls.Add(this.btnEnvioSincrono);
             this.Controls.Add(this.btnEventos);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnInutilizar);
-            this.Controls.Add(this.btnAssinar);
-            this.Controls.Add(this.btnConsultarNF);
-            this.Controls.Add(this.btnConsultarRecibo);
-            this.Controls.Add(this.btnEnviarNF);
-            this.Controls.Add(this.btnStatus);
-            this.Controls.Add(this.btnIni);
-            this.Controls.Add(this.btnLoadConfig);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.edtNumProtocolo);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.edtNumRecibo);
             this.Controls.Add(this.edtIdNFe);
             this.Controls.Add(this.edtCnpj);
             this.Controls.Add(this.edtUf);
             this.Controls.Add(this.cbCertificado);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.Inutilização);
             this.Controls.Add(this.mmXml);
             this.Name = "frmPrincipal";
             this.Text = "Demo NFCe";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.Inutilização.ResumeLayout(false);
+            this.Inutilização.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -474,8 +619,6 @@
         private System.Windows.Forms.Button btnAssinar;
         private System.Windows.Forms.Button btnConsultarNF;
         private System.Windows.Forms.Button btnEnviarNF;
-        private System.Windows.Forms.Button btnGerarTx2;
-        private System.Windows.Forms.Button btnGerarDataSet;
         private System.Windows.Forms.Button btnStatus;
         private System.Windows.Forms.Button btnIni;
         private System.Windows.Forms.Button btnLoadConfig;
@@ -499,8 +642,24 @@
         private System.Windows.Forms.Button btnGerarXMLDestinatario;
         private System.Windows.Forms.Button btnGerarDataSet400;
         private System.Windows.Forms.Button btnTX240;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnSalvarConfig;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.OpenFileDialog dlgTx2Consulta;
+        private System.Windows.Forms.GroupBox Inutilização;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox edtInutAno;
+        private System.Windows.Forms.Button btnEnviarInutilizacao;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox edtInutJustificativa;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox edtInutFaixaFim;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox edtInutFaixaIni;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox edtInutSerie;
     }
 }
 

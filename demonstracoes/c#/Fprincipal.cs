@@ -108,73 +108,107 @@ namespace Demo_NFe
 
         private void btnStatus_Click(object sender, EventArgs e)
         {
-            mmXml.Text = NFCe.StatusDoServico(); // Método do componente que verifica a conexão com o sefaz
+            try
+            {
+                mmXml.Text = NFCe.StatusDoServico(); // Método do componente que verifica a conexão com o sefaz
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
         }
 
         private void btnAssinar_Click(object sender, EventArgs e)
         {
-            mmXml.Text = NFCe.AssinarNota(mmXml.Text);
+            try
+            {
+                mmXml.Text = NFCe.AssinarNota(mmXml.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
         }
 
         private void btnEnviarNF_Click(object sender, EventArgs e)
-        {
-            mmXml.Text = NFCe.EnviarNF("0001", mmXml.Text, false);
-            xDoc.LoadXml(mmXml.Text);
-
-            //Suprimir AV quando o xDoc não localiza a tag.
+        {         
             try
             {
+                mmXml.Text = NFCe.EnviarNF("0001", mmXml.Text, false);
+                xDoc.LoadXml(mmXml.Text);
                 edtNumRecibo.Text = xDoc.GetElementsByTagName("nRec").Item(0).InnerText;
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message, "Error");
             }
         }
 
         private void btnConsultarRecibo_Click(object sender, EventArgs e)
         {
-            mmXml.Text = NFCe.ConsultarRecibo(edtNumRecibo.Text);
-            xDoc.LoadXml(mmXml.Text);
-
-            //Suprimir AV quando o xDoc não localiza a tag.
             try
             {
+                mmXml.Text = NFCe.ConsultarRecibo(edtNumRecibo.Text);
+                xDoc.LoadXml(mmXml.Text);
                 edtNumProtocolo.Text = xDoc.GetElementsByTagName("nProt").Item(0).InnerText;
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message, "Error");
             }
         }
 
         private void btnConsultarNF_Click(object sender, EventArgs e)
         {
-            mmXml.Text = NFCe.ConsultarNF(edtIdNFe.Text);
-            xDoc.LoadXml(mmXml.Text);
-
-            //Suprimir AV quando o xDoc não localiza a tag.
             try
             {
+                mmXml.Text = NFCe.ConsultarNF(edtIdNFe.Text);
+                xDoc.LoadXml(mmXml.Text);
                 edtNumRecibo.Text = xDoc.GetElementsByTagName("nProt").Item(0).InnerText;
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message, "Error");
             }
         }
 
         private void btnPrever_Click(object sender, EventArgs e)
         {
-            NFCe.PreverDanfce(mmXml.Text, "");
+            try
+            {
+                NFCe.PreverDanfce(mmXml.Text, "");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
+            
         }
 
         private void btnEditarDanfe_Click(object sender, EventArgs e)
         {
             if (edtIdNFe.Text != "")
             {
-                NFCe.EditarModeloDanfce("00001", ReadFile(edtIdNFe.Text, "-nfce"), "");
+                try
+                {
+                    NFCe.EditarModeloDanfce("00001", ReadFile(edtIdNFe.Text, "-nfce"), "");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error");
+                }
+                
             }
             else
             {
-                NFCe.EditarModeloDanfce("00001", mmXml.Text, "");
+                try
+                {
+                    NFCe.EditarModeloDanfce("00001", mmXml.Text, "");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error");
+                }
             }
         }
 
@@ -223,20 +257,34 @@ namespace Demo_NFe
 
         private void btnInutilizar_Click(object sender, EventArgs e)
         {
-            string ano = Microsoft.VisualBasic.Interaction.InputBox("Inutilização de faixa NFe", "Ano", "15", -1, -1);
-            string modelo = Microsoft.VisualBasic.Interaction.InputBox("Inutilização de faixa NFe", "Modelo", "55", -1, -1);
-            string serie = Microsoft.VisualBasic.Interaction.InputBox("Inutilização de faixa NFe", "Serie", "1", -1, -1);
-            string faixaIni = Microsoft.VisualBasic.Interaction.InputBox("Inutilização de faixa NFe", "Faixa Inicio", "1", -1, -1);
-            string faixaFim = Microsoft.VisualBasic.Interaction.InputBox("Inutilização de faixa NFe", "Faixa Fim", "10", -1, -1);
-            string justificativa = Microsoft.VisualBasic.Interaction.InputBox("Inutilização de faixa NFe", "Justificativa", "Teste de inutilização de faixa!", -1, -1);
+            Inutilização.Visible = true;
+        }
 
-            mmXml.Text = NFCe.InutilizarNF("", ano, NFCe.CNPJ, modelo, serie, faixaIni, faixaFim, justificativa);
+        private void btnEnviarInutilizacao_Click(object sender, EventArgs e)
+        {
+            string ano = edtInutAno.Text;
+            string serie = edtInutSerie.Text;
+            string faixaIni = edtInutFaixaIni.Text;
+            string faixaFim = edtInutFaixaFim.Text;
+            string justificativa = edtInutJustificativa.Text;
+
+            try
+            {//o modelo esta sendo passado Fixo "65"
+                mmXml.Text = NFCe.InutilizarNF("", ano, NFCe.CNPJ, "65", serie, faixaIni, faixaFim, justificativa);
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            Inutilização.Visible = false;
         }
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             NFCe.ConfigurarSoftwareHouse("08187168000160", "");
             NFCe.LoadConfig(Application.StartupPath + @"\NFCeConfig.ini");
+            
+
             CarregarConfig();
             cbCertificado.Text = NFCe.NomeCertificado;
             edtUf.Text = NFCe.UF;
@@ -259,11 +307,30 @@ namespace Demo_NFe
             string aLogEnvio = "";
             string aLogRec = "";
             dlgTx2.InitialDirectory = Application.StartupPath;
+            dlgTx2Consulta.InitialDirectory = Application.StartupPath;
+
             dlgTx2.ShowDialog();
             aLogEnvio = dlgTx2.FileName;
-            dlgTx2.ShowDialog();
-            aLogRec = dlgTx2.FileName;
-            NFCe.GerarXMLEnvioDestinatario(edtIdNFe.Text, aLogEnvio, aLogRec, "");
+            dlgTx2Consulta.ShowDialog();
+            aLogRec = dlgTx2Consulta.FileName;
+
+            if ((dlgTx2.ShowDialog() == DialogResult.OK) && (dlgTx2Consulta.ShowDialog() == DialogResult.OK))
+            {
+                
+                try
+                {
+                    NFCe.GerarXMLEnvioDestinatario(edtIdNFe.Text, aLogEnvio, aLogRec, "");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error");
+                }
+
+            }else
+            {
+                MessageBox.Show("Deve ser Selecionado o XML de envio e XMl de consulta","Error");
+            }
+
         }
 
         private void btnGerarXMLCancDest_Click(object sender, EventArgs e)
@@ -281,28 +348,69 @@ namespace Demo_NFe
 
         private void btnEnvioSincrono_Click(object sender, EventArgs e)
         {
-            mmXml.Text = NFCe.EnviarNFSincrono("00001", mmXml.Text, false);
+            try
+            {
+                mmXml.Text = NFCe.EnviarNFSincrono("00001", mmXml.Text, false);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
+            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnTX240_Click(object sender, EventArgs e)
         {
-            DateTime data = new DateTime();
-            data = DateTime.Now;
-            mmXml.Text = String.Format("{0:yyyy-MM-ddTHH:mm:ss}", DateTime.Now);
+            //Carrega o caminhos do Schemas e Tamplates
+            dlgTx2.InitialDirectory = Application.StartupPath;
+            NFCe.LoadConfig(Application.StartupPath + @"\NFCeConfig.ini");
+
+            if (mmXml.Text != "")
+            {
+                mmXml.Text = NFCe.ConverterLoteParaXml(mmXml.Text, LayoutConv.lkTXTDataSet, "pl_009");
+            }
+
+            if (dlgTx2.ShowDialog() == DialogResult.OK)
+            {
+                mmXml.Text = NFCe.ConverterLoteParaXml(dlgTx2.FileName, LayoutConv.lkTXTDataSet, "pl_009");
+                xDoc.LoadXml(mmXml.Text);
+                edtIdNFe.Text = mmXml.Text.Substring(15, 44);
+            }
+
         }
 
-        private void DadosDoNFe()
+        private void btnSalvarConfig_Click(object sender, EventArgs e)
+        {
+            IniFile ini = new IniFile(Application.StartupPath + @"\NFCeConfig.ini");
+
+            //Escreve os dados no ini
+            if (cbCertificado.SelectedItem == null)
+            {
+                ini.IniWriteValue("NFCE", "CNPJ", edtCnpj.Text);
+                ini.IniWriteValue("NFCE", "UF", edtUf.Text);
+            }
+            else
+            {
+                ini.IniWriteValue("NFCE", "NomeCertificado", cbCertificado.SelectedItem.ToString());
+                ini.IniWriteValue("NFCE", "CNPJ", edtCnpj.Text);
+                ini.IniWriteValue("NFCE", "UF", edtUf.Text);
+            }
+
+        }
+
+        //DataSet
+        private void DadosDoNFe400()
         {
             Random Rand = new Random();
             ////////////Dados da Nota Fiscal eletrônica///////////////
-            NFCeDataSet.SetCampo("versao_A02=3.10");
             NFCeDataSet.SetCampo("Id_A03=");
-
+            NFCeDataSet.SetCampo("versao_A02=4.00");
+            
             ////////////Identificação da Nota Fiscal eletrônica///////////////
             NFCeDataSet.SetCampo("cUF_B02=41");
             NFCeDataSet.SetCampo("cNF_B03=" + Convert.ToString(Rand.Next(11111111, 99999999)));
             NFCeDataSet.SetCampo("natOp_B04=VENDA DE MERCADORIA ADQ. DE TERCEIRO");
-            NFCeDataSet.SetCampo("indPag_B05=0");
+            //indPag_B05 removido do esquema//
             NFCeDataSet.SetCampo("mod_B06=65");
             NFCeDataSet.SetCampo("serie_B07=" + Convert.ToString(Rand.Next(1, 999)));
 
@@ -364,6 +472,39 @@ namespace Demo_NFe
             NFCeDataSet.SetCampo("indIEDest_E16a=9");
         }
 
+        private void DadosTotalizadores400()
+        {
+            NFCeDataSet.SetCampo("vBC_W03=1.00");
+            NFCeDataSet.SetCampo("vICMS_W04=0.10");
+
+            //campo novo
+            NFCeDataSet.SetCampo("vFCP_W04h=0.00");
+
+            NFCeDataSet.SetCampo("vICMSDeson_W04a=0.00");
+            NFCeDataSet.SetCampo("vBCST_W05=0.00");
+            NFCeDataSet.SetCampo("vST_W06=0.00");
+
+            //campos novos
+            NFCeDataSet.SetCampo("vFCPST_W06a=0.00");
+            NFCeDataSet.SetCampo("vFCPSTRet_W06b=0.00");
+
+            NFCeDataSet.SetCampo("vProd_W07=1.00");
+            NFCeDataSet.SetCampo("vFrete_W08=0.00");
+            NFCeDataSet.SetCampo("vSeg_W09=0.00");
+            NFCeDataSet.SetCampo("vDesc_W10=0.00");
+            NFCeDataSet.SetCampo("vII_W11=0.00");
+            NFCeDataSet.SetCampo("vIPI_W12=0.00");
+
+            //campo novo
+            NFCeDataSet.SetCampo("vIPIDevol_W12a=0.00");
+
+            NFCeDataSet.SetCampo("vPIS_W13=0.00");
+            NFCeDataSet.SetCampo("vCOFINS_W14=0.00");
+            NFCeDataSet.SetCampo("vOutro_W15=0.00");
+            NFCeDataSet.SetCampo("vNF_W16=1.00");
+            NFCeDataSet.SetCampo("vTotTrib_W16a=1.00");
+        }
+
         private void DadosDoItem()
         {
             NFCeDataSet.IncluirItem();
@@ -415,26 +556,6 @@ namespace Demo_NFe
             NFCeDataSet.SalvarItem();
         }
 
-        private void DadosTotalizadores()
-        {
-            NFCeDataSet.SetCampo("vBC_W03=1.00");
-            NFCeDataSet.SetCampo("vICMS_W04=0.10");
-            NFCeDataSet.SetCampo("vICMSDeson_W04a=0.00");
-            NFCeDataSet.SetCampo("vBCST_W05=0.00");
-            NFCeDataSet.SetCampo("vST_W06=0.00");
-            NFCeDataSet.SetCampo("vProd_W07=1.00");
-            NFCeDataSet.SetCampo("vFrete_W08=0.00");
-            NFCeDataSet.SetCampo("vSeg_W09=0.00");
-            NFCeDataSet.SetCampo("vDesc_W10=0.00");
-            NFCeDataSet.SetCampo("vII_W11=0.00");
-            NFCeDataSet.SetCampo("vIPI_W12=0.00");
-            NFCeDataSet.SetCampo("vPIS_W13=0.00");
-            NFCeDataSet.SetCampo("vCOFINS_W14=0.00");
-            NFCeDataSet.SetCampo("vOutro_W15=0.00");
-            NFCeDataSet.SetCampo("vNF_W16=1.00");
-            NFCeDataSet.SetCampo("vTotTrib_W16a=1.00");
-        }
-
         private void DadosTransporte()
         {
             NFCeDataSet.SetCampo("modFrete_X02=9");
@@ -446,114 +567,9 @@ namespace Demo_NFe
             NFCeDataSet.SetCampo("infCpl_Z03=OBSERVACAO TESTE DA DANFE CONTRIBUINTE  OBSERVACAO TESTE DA DANFE CONTRIBUINTE");
         }
 
-        private void DadosPagamento()
-        {
-            NFCeDataSet.IncluirParte("YA");
-            NFCeDataSet.SetCampo("tPag_YA02=01");
-            NFCeDataSet.SetCampo("vPag_YA03=0.50");
-            NFCeDataSet.SalvarParte("YA");
-
-            NFCeDataSet.IncluirParte("YA");
-            NFCeDataSet.SetCampo("tPag_YA02=05");
-            NFCeDataSet.SetCampo("vPag_YA03=0.50");
-            NFCeDataSet.SalvarParte("YA");
-        }
-
-        private void btnGerarDataSet_Click(object sender, EventArgs e)
-        {
-            NFCe.VersaoManual= VersaoManualNFCe.vm50b;
-            edtNumRecibo.Text = "";
-            edtNumProtocolo.Text = "";
-
-            NFCeDataSet.VersaoEsquema = "pl_008i1";
-            NFCeDataSet.DicionarioXML = NFCe.DiretorioTemplates + "\\Conversor\\NFCeDataSets.xml";
-
-            NFCeDataSet.Incluir();
-
-            DadosDoNFe();
-            DadosDoEmitente();
-            //DadosDoDestinatario();
-            DadosTotalizadores();
-            DadosDoItem();
-            DadosTransporte();
-            DadosAdicionais();
-            DadosPagamento();
-
-            NFCeDataSet.Salvar();
-
-            mmXml.Text = NFCeDataSet.LoteNFCe;
-            edtIdNFe.Text = NFCeDataSet.GetCampo("Id_A03").ToString().Remove(0, 3);
-        }
-
-        private void DadosDoNFe400()
-        {
-            Random Rand = new Random();
-            ////////////Dados da Nota Fiscal eletrônica///////////////
-            NFCeDataSet.SetCampo("versao_A02=4.00");
-            NFCeDataSet.SetCampo("Id_A03=");
-
-            ////////////Identificação da Nota Fiscal eletrônica///////////////
-            NFCeDataSet.SetCampo("cUF_B02=41");
-            NFCeDataSet.SetCampo("cNF_B03=" + Convert.ToString(Rand.Next(11111111, 99999999)));
-            NFCeDataSet.SetCampo("natOp_B04=VENDA DE MERCADORIA ADQ. DE TERCEIRO");
-            //indPag_B05 removido do esquema//
-            NFCeDataSet.SetCampo("mod_B06=65");
-            NFCeDataSet.SetCampo("serie_B07=" + Convert.ToString(Rand.Next(1, 999)));
-
-            NFCeDataSet.SetCampo("nNF_B08=" + Convert.ToString(Rand.Next(1, 999999999)));
-            NFCeDataSet.SetCampo("dhEmi_B09=" + String.Format("{0:yyyy-MM-ddTHH:mm:ss}", DateTime.Now) + "-03:00");
-            NFCeDataSet.SetCampo("tpNF_B11=1");
-            NFCeDataSet.SetCampo("idDest_B11a=1");
-            NFCeDataSet.SetCampo("cMunFG_B12=4115200");
-
-            NFCeDataSet.SetCampo("tpImp_B21=4");
-
-            NFCeDataSet.SetCampo("tpEmis_B22=1");
-            NFCeDataSet.SetCampo("cDV_B23=");
-            NFCeDataSet.SetCampo("tpAmb_B24=2");
-            NFCeDataSet.SetCampo("finNFe_B25=1");
-            NFCeDataSet.SetCampo("indFinal_B25a=1");
-            NFCeDataSet.SetCampo("indPres_B25b=1");
-            NFCeDataSet.SetCampo("procEmi_B26=0");
-            NFCeDataSet.SetCampo("verProc_B27=5");
-        }
-
-        private void DadosTotalizadores400()
-        {
-            NFCeDataSet.SetCampo("vBC_W03=1.00");
-            NFCeDataSet.SetCampo("vICMS_W04=0.10");
-            
-            //campo novo
-            NFCeDataSet.SetCampo("vFCP_W04h=0.00");
-
-            NFCeDataSet.SetCampo("vICMSDeson_W04a=0.00");
-            NFCeDataSet.SetCampo("vBCST_W05=0.00");
-            NFCeDataSet.SetCampo("vST_W06=0.00");
-            
-            //campos novos
-            NFCeDataSet.SetCampo("vFCPST_W06a=0.00");
-            NFCeDataSet.SetCampo("vFCPSTRet_W06b=0.00");
-
-            NFCeDataSet.SetCampo("vProd_W07=1.00");
-            NFCeDataSet.SetCampo("vFrete_W08=0.00");
-            NFCeDataSet.SetCampo("vSeg_W09=0.00");
-            NFCeDataSet.SetCampo("vDesc_W10=0.00");
-            NFCeDataSet.SetCampo("vII_W11=0.00");
-            NFCeDataSet.SetCampo("vIPI_W12=0.00");
-
-            //campo novo
-            NFCeDataSet.SetCampo("vIPIDevol_W12a=0.00");
-
-            NFCeDataSet.SetCampo("vPIS_W13=0.00");
-            NFCeDataSet.SetCampo("vCOFINS_W14=0.00");
-            NFCeDataSet.SetCampo("vOutro_W15=0.00");
-            NFCeDataSet.SetCampo("vNF_W16=1.00");
-            NFCeDataSet.SetCampo("vTotTrib_W16a=1.00");
-        }
-
         private void DadosPagamento400()
-        {   
-            
+        {
+
             NFCeDataSet.IncluirParte("YA");
             NFCeDataSet.SetCampo("tPag_YA02=01");
             NFCeDataSet.SetCampo("vPag_YA03=0.60");
@@ -572,8 +588,12 @@ namespace Demo_NFe
             edtNumRecibo.Text = "";
             edtNumProtocolo.Text = "";
 
+            //Carrega o caminhos do Schemas e Tamplates
+            dlgTx2.InitialDirectory = Application.StartupPath;
+            NFCe.LoadConfig(Application.StartupPath + @"\NFCeConfig.ini");
+
             NFCeDataSet.VersaoEsquema = "pl_009";
-            NFCeDataSet.DicionarioXML = NFCe.DiretorioTemplates + "\\Conversor\\NFCeDataSets.xml";
+            NFCeDataSet.DicionarioXML = NFCe.DiretorioTemplates + "Conversor\\NFCeDataSets.xml";
 
             NFCeDataSet.Incluir();
 
@@ -592,15 +612,8 @@ namespace Demo_NFe
             edtIdNFe.Text = NFCeDataSet.GetCampo("Id_A03").ToString().Remove(0, 3);
         }
 
-        private void btnTX240_Click(object sender, EventArgs e)
-        {
-            dlgTx2.InitialDirectory = Application.StartupPath;
-                if (dlgTx2.ShowDialog() == DialogResult.OK)
-                {
-                    mmXml.Text = NFCe.ConverterLoteParaXml(dlgTx2.FileName, LayoutConv.lkTXTDataSet, "pl_009");
-                    xDoc.LoadXml(mmXml.Text);
-                    edtIdNFe.Text = mmXml.Text.Substring(15, 44);
-                }
-        }
+    
+
+       
     }
 }

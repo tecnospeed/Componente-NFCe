@@ -1,0 +1,1 @@
+<nfeResultMsg xmlns="http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4"><retEnviNFe versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe"><tpAmb>2</tpAmb><verAplic>PR-v4_4_8</verAplic><cStat>213</cStat><xMotivo>CNPJ-Base do Emitente difere do CNPJ-Base do Certificado Digital</xMotivo><cUF>41</cUF><dhRecbto>2021-04-26T09:23:03-03:00</dhRecbto></retEnviNFe></nfeResultMsg>
