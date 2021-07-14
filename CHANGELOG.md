@@ -1,4 +1,17 @@
-﻿## [9.1.65.8794]
+﻿## [9.1.67.8803]
+
+**Novidades**
+- DC-2420 - Incluindo marca d'água "SEM VALOR FISCAL" na previsão de DANFCE (não afeta impressão e visualização de nota autorizada ou em contingência).
+
+**Correções**
+
+- DC-2924: ajusta rotina que retorna os dígitos do campo vUnCom. Se há mais de 4 casas decimais significativas, respeita o valor passado pelo cliente, do contrário trunca em 4 casas.
+- DC-2994 - Tratar xml em contingência sem assinatura nos métodos Imprimir, Exportar, Visualizar e Editar a DANFCe.
+- DC-2565 - Compatibilizado componente com NT 2020/006 v1.20.
+Documentação: https://blog.tecnospeed.com.br/nota-tecnica-2020-006-da-nfe-e-nfce/
+- DC-3017 - Tratamento encoding para salvar o xml em utf8 no método EnviarNFSincrono
+
+## [9.1.65.8794]
 
 **Correções**
 
@@ -119,6 +132,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
