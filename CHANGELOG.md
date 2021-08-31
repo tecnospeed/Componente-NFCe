@@ -1,4 +1,12 @@
-﻿## [9.1.67.8803]
+﻿## [9.1.67.8809]
+
+**Novidades**
+
+* DC-3525 - Disponibilização do método EncodeBase64 no componente e OCX 
+* DC-3569 - Compatibilizado com as NTs 2020.005 v1.0, 2020.005 v1.10 e 2020.005 v1.20
+            <BR>Maiores informações: https://blog.tecnospeed.com.br/nota-tecnica-2020-005-nfe-nfce/
+
+## [9.1.67.8803]
 
 **Novidades**
 - DC-2420 - Incluindo marca d'água "SEM VALOR FISCAL" na previsão de DANFCE (não afeta impressão e visualização de nota autorizada ou em contingência).
@@ -132,6 +140,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
