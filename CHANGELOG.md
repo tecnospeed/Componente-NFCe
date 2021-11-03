@@ -1,4 +1,12 @@
-﻿## [9.1.67.8809]
+﻿## [9.1.67.8813]
+
+**Correções**
+
+* DCEV-500 - Correção da impressão por ESCPOS para limpar quaisquer notas em memória antes de cada impressão, para evitar que a mesma nota seja impressa múltiplas vezes.
+
+* DCEV-422 - Correção na propriedade ExibirAcrescimoEDesconto para listar somente quando possuir valor maior que zero
+
+## [9.1.67.8809]
 
 **Novidades**
 
@@ -140,6 +148,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
