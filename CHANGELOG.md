@@ -1,4 +1,12 @@
-﻿## [9.1.67.8813]
+﻿## [9.1.67.8818]
+
+**Correções**
+
+* DCEV-662 - Correção do relatório de impressão 58mm que estava sobrepondo os itens
+* DCEV-702 - Corrigindo link de QRCode para Piauí
+* DCEV-620 - Melhorias na impressão para não sobrepor texto do campo xMsg no QRCode
+
+## [9.1.67.8813]
 
 **Correções**
 
@@ -148,6 +156,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
