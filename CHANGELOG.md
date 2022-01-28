@@ -1,4 +1,10 @@
-﻿## [9.1.67.8818]
+﻿## [9.1.67.8821]
+
+**Novidades**
+
+* DCEV-319 - Disponibilizando versão com TecnoAccount
+
+## [9.1.67.8818]
 
 **Correções**
 
@@ -156,6 +162,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
