@@ -1,8 +1,8 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 245
-  Top = 118
-  ClientHeight = 506
-  ClientWidth = 938
+  Left = 540
+  Top = 184
+  Width = 971
+  Height = 545
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -118,17 +118,18 @@ object frmPrincipal: TfrmPrincipal
   end
   object cbCertificado: TComboBox
     Left = 8
-    Top = 8
+    Top = 0
     Width = 431
     Height = 21
+    ItemHeight = 13
     TabOrder = 0
     OnChange = cbCertificadoChange
   end
   object mmXml: TMemo
-    Left = 437
-    Top = 0
+    Left = 445
+    Top = 8
     Width = 500
-    Height = 497
+    Height = 241
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clBlue
     Font.Height = -11
@@ -317,6 +318,20 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 24
     OnClick = btnxmlDestInutiClick
   end
+  object mmXmlDenegado: TMemo
+    Left = 445
+    Top = 264
+    Width = 500
+    Height = 241
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 25
+  end
   object spdNFCe: TspdNFCe
     VersaoManual = vm50
     DanfceSettings.FraseContingencia = 
@@ -335,7 +350,9 @@ object frmPrincipal: TfrmPrincipal
       's\Vm50\Danfce\retrato.rtm'
     DanfceSettings.FormatoDanfce = fdNormal
     DanfceSettings.ExibirDetalhamento = True
-    Versao = '7.0.47.6018'
+    DanfceSettings.ExibirAcrescimoEDesconto = False
+    DanfceSettings.InfCplQuebrarLinhaAut = False
+    Versao = '9.1.63.8789'
     CaracteresRemoverAcentos = #225#233#237#243#250#224#232#236#242#249#226#234#238#244#251#228#235#239#246#252#227#245#241#231#193#201#205#211#218#192#200#204#210#217#194#202#206#212#219#196#203#207#214#220#195#213#209#199#186#170
     TipoCertificado = ckFile
     DiretorioTemplates = 'C:\Arquivos de programas\Embarcadero\RAD Studio\9.0\Bin\vm50\'
@@ -346,6 +363,7 @@ object frmPrincipal: TfrmPrincipal
     EmailSettings.TimeOut = 15000
     EmailSettings.AnexarDanfcePDF = True
     EmailSettings.ConteudoHtml = False
+    EmailSettings.UseSecureBlackBox = False
     DiretorioEsquemas = 'C:\Arquivos de programas\Embarcadero\RAD Studio\9.0\Bin\vm50\'
     ConexaoSegura = True
     TimeOut = 0
@@ -356,6 +374,19 @@ object frmPrincipal: TfrmPrincipal
     EntregaXML = exEmail
     HashCertificado = '00000000000000000000000000000000'
     DiagnosticMode = True
+    AtualizarArquivoServidores = True
+    HttpLibs = 'wininet,sbb'
+    UtilizarEscPOS = False
+    EscPosSettings.ModeloEscPos = 1
+    EscPosSettings.ColunasFonteNormalEscPos = 48
+    EscPosSettings.EspacoEntreLinhasEscPos = 10
+    EscPosSettings.LinhasEntreCuponsEscPos = 3
+    EscPosSettings.CortaPapelEscPos = True
+    EscPosSettings.PaginaDeCodigoEscPos = 2
+    EscPosSettings.QtdeCopiasEscPos = 1
+    EscPosSettings.ResumidoEscPos = False
+    EscPosSettings.ImprimeDescAcrescItemEscPos = False
+    EscPosSettings.ImprimeNomeFantasiaEscPos = False
     Left = 272
     Top = 440
   end
@@ -367,9 +398,6 @@ object frmPrincipal: TfrmPrincipal
     Top = 440
   end
   object dlgTx2: TOpenDialog
-    FileName = 
-      'C:\Users\matheus.carvalho\Downloads\1544cc9aa6d99fd351100096f585' +
-      'd73fa0f31471.txt'
     Left = 240
     Top = 440
   end

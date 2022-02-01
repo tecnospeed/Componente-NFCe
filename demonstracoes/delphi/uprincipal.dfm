@@ -1,8 +1,8 @@
 object frmPrincipal: TfrmPrincipal
   Left = 540
   Top = 184
-  Width = 971
-  Height = 545
+  ClientHeight = 506
+  ClientWidth = 955
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -10,12 +10,13 @@ object frmPrincipal: TfrmPrincipal
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poOwnerFormCenter
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object LabelAmbiente: TLabel
-    Left = 19
-    Top = 436
+    Left = 8
+    Top = 455
     Width = 164
     Height = 29
     Caption = 'Homologa'#231#227'o'
@@ -95,7 +96,7 @@ object frmPrincipal: TfrmPrincipal
     Left = 151
     Top = 175
     Width = 137
-    Height = 242
+    Height = 250
     Caption = 'Opera'#231#245'es Basicas'
     TabOrder = 19
   end
@@ -121,7 +122,6 @@ object frmPrincipal: TfrmPrincipal
     Top = 0
     Width = 431
     Height = 21
-    ItemHeight = 13
     TabOrder = 0
     OnChange = cbCertificadoChange
   end
@@ -186,7 +186,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnConsultarRec: TButton
     Left = 305
-    Top = 290
+    Top = 289
     Width = 126
     Height = 25
     Caption = 'Consultar Recibo'
@@ -204,7 +204,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnCancelar: TButton
     Left = 163
-    Top = 351
+    Top = 350
     Width = 110
     Height = 25
     Caption = 'Cancelar NFCe'
@@ -213,7 +213,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnEditar: TButton
     Left = 305
-    Top = 351
+    Top = 350
     Width = 126
     Height = 25
     Caption = 'Editar NFCe'
@@ -222,7 +222,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnVisualizar: TButton
     Left = 305
-    Top = 259
+    Top = 258
     Width = 126
     Height = 25
     Caption = 'Visualizar NFCe'
@@ -231,7 +231,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnImprimir: TButton
     Left = 163
-    Top = 320
+    Top = 319
     Width = 110
     Height = 25
     Caption = 'Imprimir NFCe'
@@ -240,7 +240,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnExportar: TButton
     Left = 305
-    Top = 228
+    Top = 227
     Width = 126
     Height = 25
     Caption = 'Exportar PDF NFCe'
@@ -249,7 +249,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object ButtonInutilizar: TButton
     Left = 305
-    Top = 320
+    Top = 319
     Width = 126
     Height = 25
     Caption = 'Inutilizar'
@@ -258,7 +258,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object ButtonEmail: TButton
     Left = 305
-    Top = 197
+    Top = 196
     Width = 126
     Height = 25
     Caption = 'Enviar Email'
@@ -293,7 +293,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnEmitCancelada: TButton
     Left = 163
-    Top = 382
+    Top = 381
     Width = 110
     Height = 25
     Caption = 'Emite Cancelada'
@@ -302,7 +302,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnXmlDestinatario: TButton
     Left = 305
-    Top = 382
+    Top = 381
     Width = 126
     Height = 25
     Caption = 'Gerar XML Destinat'#225'rio'
@@ -311,7 +311,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnxmlDestInuti: TButton
     Left = 305
-    Top = 413
+    Top = 412
     Width = 126
     Height = 25
     Caption = 'Gerar XML Desti Inut'
@@ -352,7 +352,7 @@ object frmPrincipal: TfrmPrincipal
     DanfceSettings.ExibirDetalhamento = True
     DanfceSettings.ExibirAcrescimoEDesconto = False
     DanfceSettings.InfCplQuebrarLinhaAut = False
-    Versao = '9.1.63.8789'
+    Versao = '9.1.67.8818'
     CaracteresRemoverAcentos = #225#233#237#243#250#224#232#236#242#249#226#234#238#244#251#228#235#239#246#252#227#245#241#231#193#201#205#211#218#192#200#204#210#217#194#202#206#212#219#196#203#207#214#220#195#213#209#199#186#170
     TipoCertificado = ckFile
     DiretorioTemplates = 'C:\Arquivos de programas\Embarcadero\RAD Studio\9.0\Bin\vm50\'

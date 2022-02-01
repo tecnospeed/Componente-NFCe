@@ -61,19 +61,15 @@ type
     procedure btnVisualizarClick(Sender: TObject);
     procedure btnImprimirClick(Sender: TObject);
     procedure btnExportarClick(Sender: TObject);
-    procedure ButtonGerarXMLDestClick(Sender: TObject);
     procedure ButtonInutilizarClick(Sender: TObject);
-    procedure Button2Click(Sender: TObject);
     procedure ButtonEmailClick(Sender: TObject);
-    procedure btnImprimirDenegadaClick(Sender: TObject);
-    procedure Button3Click(Sender: TObject);
-    procedure Button4Click(Sender: TObject);
     procedure btnDS4Click(Sender: TObject);
     procedure btnTx2400Click(Sender: TObject);
     procedure btnSalvarConfigClick(Sender: TObject);
     procedure btnEmitCanceladaClick(Sender: TObject);
     procedure btnXmlDestinatarioClick(Sender: TObject);
     procedure btnxmlDestInutiClick(Sender: TObject);
+
   private
     _NumeroLote : String;
     _Dir: String;
@@ -148,7 +144,7 @@ end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
- //spdNFCe.ConfigurarSoftwareHouse('08187168000160','');
+//  spdNFCe.ConfigurarSoftwareHouse('','');
   frmPrincipal.Caption := 'Demo NFCe - ' + spdNFCe.Versao;
   spdNFCe.DanfceSettings.ExibirDetalhamento := true;
   spdNFCe.ListarCertificados(cbCertificado.Items);
@@ -169,7 +165,7 @@ end;
 procedure TfrmPrincipal.btnCancelarClick(Sender: TObject);
 begin
   mmXml.Text := spdNFCe.CancelarNF(edtId.Text,edtProtocolo.Text,'Justificativa Teste de Cancelamento',
-                                    FormatDateTime('YYYY-MM-DD"T"HH:MM:SS',Now),1,'-02:00');
+                                    FormatDateTime('YYYY-MM-DD"T"HH:MM:SS',Now),1,'-03:00');
 end;
 
 procedure TfrmPrincipal.btnConsultarNFCeClick(Sender: TObject);
@@ -194,7 +190,6 @@ procedure TfrmPrincipal.btnDS4Click(Sender: TObject);
     aDs.Campo('cUF_B02').Value      := '41'; //Código da UF do emitente do Documento Fiscal
     aDs.Campo('cNF_B03').Value      := '13469880'; //Código Numérico que compõe a Chave de Acesso
     aDs.Campo('natOp_B04').Value    := 'VENDA MERC.ADQ.REC.TERC'; //Descrição da Natureza da Operação
-    //remobido na 4.00 indPag_B05
     aDs.Campo('mod_B06').Value      := '65'; //Modelo do Documento Fiscal
     aDs.Campo('serie_B07').Value    := serie; //Série do Documento Fiscal
 
@@ -476,35 +471,6 @@ begin
     spdNFCe.VisualizarDanfce('1', mmXml.Text);
 end;
 
-
-
-procedure TfrmPrincipal.btnXmlDestinatarioClick(Sender: TObject);
-   var
-      _arq: TStringList;
-      aut, canc, _lote: String;
-  begin
-        _arq := TStringList.Create;
-      dlgXml.InitialDir := ExtractFilePath(ParamStr(0)); //Abre Dialog para localizar arquivo
-      dlgXml.Execute;
-      if dlgXml.FileName <> '' then
-      begin
-         _arq.LoadFromFile(dlgXml.FileName);
-         aut := _arq.Text; //armazena o XML lido dentro da variável aut
-     end;
-
-     _arq.Free;
-     dlgXml.InitialDir := ExtractFilePath(ParamStr(0)); //Abre Dialog para localizar arquivo
-     dlgXml.Execute;
-     if dlgXml.FileName <> '' then
-     begin
-         _arq.LoadFromFile(dlgXml.FileName);
-         canc := _arq.Text; //armazena o XML lido dentro da variável canc
-     end;
-
-     _lote := aut + canc; //concatena os dois arquivos
-     spdNFCe.ImprimirDanfce('0', _lote); //solicita a impressão
-  end;
-
 procedure TfrmPrincipal.btnxmlDestInutiClick(Sender: TObject);
    var
       _arq: TStringList;
@@ -532,12 +498,9 @@ procedure TfrmPrincipal.btnxmlDestInutiClick(Sender: TObject);
      mmXml.Text := spdNFCe.GerarxmlDestinatarioInutilizacao(ret,env); //solicita a impressão
   end;
 
-procedure TfrmPrincipal.ButtonGerarXMLDestClick(Sender: TObject);
+procedure TfrmPrincipal.btnXmlDestinatarioClick(Sender: TObject);
 begin
-  spdNFCe.GerarXMLEnvioDestinatario(edtId.Text,
-    '-env-lot.xml',
-    '-rec.xml',
-    spdNFCe.DiretorioXmlDestinatario + edtId.Text + '-nfce.xml');
+  spdNFCe.GerarXMLEnvioDestinatario(edtId.Text, mmXml.Text, mmXmlDenegado.Text,spdNFCe.DiretorioXmlDestinatario + edtId.Text + '-nfce.xml');
 end;
 
 procedure TfrmPrincipal.ButtonInutilizarClick(Sender: TObject);
@@ -554,35 +517,9 @@ begin
   mmXml.Text := spdNFCe.InutilizarNF('', aAno, spdNFCe.CNPJ, '65', aSerie, aIni, aFim, txtJustificativa);
 end;
 
-procedure TfrmPrincipal.Button2Click(Sender: TObject);
-begin
-  mmXml.Text := spdNFCe.AssinarEPEC(mmXml.Text); 
-
-end;
-
 procedure TfrmPrincipal.ButtonEmailClick(Sender: TObject);
 begin
   spdNFCe.EnviarNotaDestinatario(edtId.Text, '', '');
-end;
-
-procedure TfrmPrincipal.btnImprimirDenegadaClick(Sender: TObject);
-begin
- spdNFCe.ImprimirDanfce('1', mmXmlDenegado.text);
-end;
-
-procedure TfrmPrincipal.Button3Click(Sender: TObject);
-begin
-  mmXml.Text := spdNFCe.EnviarEPEC(mmXml.Text); 
-end;
-
-procedure TfrmPrincipal.Button4Click(Sender: TObject);
-var
-  listaXml : TStringList;
-begin
-  listaXml := TStringList.Create;
-  listaXml.Add(mmXML.Text);
-  listaXml.SaveToFile(ExtractFilePath(ParamStr(0)) + '\Pendencencias EPEC\'
-    + edtId.Text + '-pendente.xml');
 end;
 
 end.
