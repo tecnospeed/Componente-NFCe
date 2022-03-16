@@ -1,4 +1,10 @@
-﻿## [9.1.67.8821]
+﻿## [9.1.67.8824]
+
+**Novidades**
+
+* DCEV-765 - Alterando link do QRCode para Minas Gerais conforme alteração feita pelo estado.
+
+## [9.1.67.8821]
 
 **Novidades**
 
@@ -162,6 +168,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
