@@ -1,4 +1,11 @@
-﻿## [9.1.67.8824]
+﻿## [9.1.67.8828]
+
+**Novidades**
+
+* DCIT-1116 - Adicionadas as propriedades CnpjSoftwareHouse e TokenSoftwareHouse para configuração de SoftwareHouse via arquivo .ini ou propriedades. Adicionada a propriedade DiagnosticMode no arquivo ini.
+
+
+## [9.1.67.8824]
 
 **Novidades**
 
@@ -168,6 +175,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
