@@ -9,8 +9,14 @@
 
 **Novidades**
 
-* DCIT-1116 - Adicionadas as propriedades CnpjSoftwareHouse e TokenSoftwareHouse para configuração de SoftwareHouse via arquivo .ini ou propriedades. Adicionada a propriedade DiagnosticMode no arquivo ini.
+* DCIT-1116 - Adicionadas as propriedades CnpjSoftwareHouse e TokenSoftwareHouse para configuração de SoftwareHouse via arquivo .ini ou propriedades. Adicionada a propriedade DiagnosticMode no arquivo ini
+* DCEV-814 - FRETE DANFCE
 
+
+**Correções**
+
+* DCEV-524 - ESCPOS travando ao liberar componente
+* DCEV-819 - Links quebrados no arquivo "leiame.txt"
 
 ## [9.1.67.8824]
 
