@@ -1,4 +1,11 @@
-﻿## [9.1.67.8828]
+﻿## [9.1.67.8829]
+
+**Novidades**
+
+- DCEV-814 - Implementada nova propriedade "ImprimirFrete" para impressão do valor total do frete no layout da DANFCE.
+  - Documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
+
+## [9.1.67.8828]
 
 **Novidades**
 
@@ -175,6 +182,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
