@@ -4,6 +4,10 @@
 
 - DCEV-814 - Implementada nova propriedade "ImprimirFrete" para impressão do valor total do frete no layout da DANFCE.
   - Documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
+  
+**Correções**
+
+* DCEV-524 - ESCPOS travando ao liberar componente  
 
 ## [9.1.67.8828]
 
@@ -14,8 +18,6 @@
 
 
 **Correções**
-
-* DCEV-524 - ESCPOS travando ao liberar componente
 * DCEV-819 - Links quebrados no arquivo "leiame.txt"
 
 ## [9.1.67.8824]
