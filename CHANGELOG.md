@@ -1,4 +1,8 @@
-﻿## [9.1.67.8833]
+﻿## [9.1.67.8837]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [9.1.67.8833]
 
 - DSP4G-34 - Validação da propriedade ExibirAcrescimoEDesconto para a impressão no formato 58mm
 - DSML-92 - Propriedades escPos.
@@ -195,6 +199,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
