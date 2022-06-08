@@ -1,6 +1,8 @@
 ﻿## [9.1.67.8837]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Correções**
+
+*  DSML-169 - Cabeçalho SOAP para estado Ceará.
 
 ## [9.1.67.8833]
 
