@@ -1,6 +1,8 @@
 ﻿## [9.1.67.8840]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Novidades**
+* DSP4G-26 - Remover função em duplicidade ValidarFusoHorario
+* DSP4G-280 - NT 2022.001 v 1.0
 
 ## [9.1.67.8838]
 
