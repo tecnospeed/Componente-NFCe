@@ -1,4 +1,8 @@
-﻿## [9.1.67.8840]
+﻿## [9.1.67.8845]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [9.1.67.8840]
 
 **Novidades**
 * DSP4G-26 - Remover função em duplicidade ValidarFusoHorario
@@ -211,6 +215,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
