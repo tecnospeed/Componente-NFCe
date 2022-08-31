@@ -1,4 +1,8 @@
-﻿## [9.1.67.8847]
+﻿## [9.1.67.8850]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [9.1.67.8847]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -219,6 +223,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
