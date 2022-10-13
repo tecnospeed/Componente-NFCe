@@ -1,4 +1,21 @@
-﻿## [9.1.67.8855]
+﻿## [9.1.67.8858]
+
+**Novidades**
+
+* DSP4G-120 - Disponibilizado propriedade UseSecureBlackBox para ser usada no componente e a mesma configuração pode ser feita diretamente pela TLB pela propriedade EmailUseSecureBlackBox segue link para mais detalhes https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006006773
+* DSP4G-37 - Disponibilizado propriedade ImprimirFreteProduto permitindo assim exibir o valor do frete a cada item da nota. Segue link para mais detalhes https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
+* DSP4G-26 - Correção na validação de fuso horário das rotinas CancelarNF e CancelarNFSubstituicao.
+* DSP4G-280 disponibilizado método ConsultarGTIN referente a NT2022.001 v1.0. Para mais detalhes de como utilizar [ConsultarGTIN](https://tecnospeed.zendesk.com/knowledge/articles/7062037355031/pt-br?brand_id=360000386474)
+* DSP4G-335 - Disponibilizado propriedade ImprimirISSQNProduto permitindo assim exibir o valor do ISSQN a cada item da nota. Segue link para mais detalhes https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
+* DSP4G-143 - Adicionado no menu do Windows a opção de desinstalação do pacote de dependências.
+* DSP4G-304 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_NFCe.ini" contendo os ID´s das OCXs.
+* DSP4G-387: Disponibilizado método GetNomeCertificadoViaCaminho para obter o nome do certificado informando o caminho e a senha dele. Para mais detalhes de como utilizar [GetNomeCertificadoViaCaminho](https://tecnospeed.zendesk.com/knowledge/articles/8021891755287/pt-br?brand_id=360000386474)
+
+**Correções**
+* DSML-330 - Alteração da url do qrcode em nfceServidoresHom e nfceServidoresProd do estado DF;
+* DSML-308 - Corrigindo nome da dependencia tecnoaccount;
+
+## [9.1.67.8855]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -227,6 +244,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
