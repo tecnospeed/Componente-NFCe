@@ -1,6 +1,7 @@
 ﻿## [9.1.67.8859]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Novidades**
+* Adicionado campos cBarra e cBarraTrib ao DatasetItens para que possam ser utilizados em personalização de DANFCE (.rtm).
 
 ## [9.1.67.8858]
 
