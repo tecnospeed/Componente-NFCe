@@ -1,4 +1,13 @@
-﻿## [9.1.67.8859]
+﻿## [9.1.67.8864]
+
+**Correções**
+* DSML-376 -  Ajuste no tamanho da fonte do código da nota no retrato.rtm
+
+**Novidades**
+* DSP4G-612 - Atualização do link QRCODE e Consulta chave para a UF de MG conforme adequação de [servidores](http://www.sped.fazenda.mg.gov.br/spedmg/nfce/)
+* DSPG4-627 - Disponibilizado método [GerarXMLMenuFiscal](https://tecnospeed.zendesk.com/knowledge/articles/10092055551639/pt-br?brand_id=360000386474) conforme Ato Diat 15/2022 SC
+
+## [9.1.67.8859]
 
 **Novidades**
 * Adicionado campos cBarra e cBarraTrib ao DatasetItens para que possam ser utilizados em personalização de DANFCE (.rtm).
@@ -249,6 +258,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
