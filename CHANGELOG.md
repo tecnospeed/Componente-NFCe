@@ -1,4 +1,11 @@
-﻿## [9.1.67.8864]
+﻿## [9.1.67.8867]
+
+#leiame
+
+**Novidades**
+* DSP4G-784 - Compatibilizado com atualizações do componente indy
+
+## [9.1.67.8864]
 
 **Correções**
 * DSML-376 -  Ajuste no tamanho da fonte do código da nota no retrato.rtm
@@ -258,6 +265,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
