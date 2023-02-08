@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity 
+    name="NFCeGovX.X"
+    version="1.0.0.0" 
+    type="win32"
+    processorArchitecture="x86">
+  </assemblyIdentity>
+
+  <file name="ActiveX\\NFCeGovX.ocx">
+  
+    <comClass clsid="{17D61B2C-D3FC-4C16-A12D-E0DF9C43BD82}"
+            description="spdGovUtils"            
+            threadingModel="both">
+    </comClass>  
+
+    <comClass clsid="{22DD5992-C921-4F18-A53A-C155083851B8}"
+            description="PrintSettings"            
+            threadingModel="both">
+    </comClass>	
+	
+    <comClass clsid="{CA88936F-182B-427E-88D3-2580E6A35E94}"
+            description="SignerSettings"            
+            threadingModel="both">
+    </comClass>		
+	
+    <comClass clsid="{065A3518-0F3F-437A-B77D-8BBCD61287BC}"
+            description="InvokeOptions"            
+            threadingModel="both">
+    </comClass>	
+
+	<comClass clsid="{DA71C2A4-EF3B-471E-A41D-3EECDB53C63D}"
+            description="HttpSettings"            
+            threadingModel="both">
+    </comClass>	
+	
+	<comClass clsid="{7DE6F4F6-6184-4A89-B2C3-AC2704810425}"
+            description="LicenseSettings"            
+            threadingModel="both">
+    </comClass>	
+
+	<comClass clsid="{D7006FEB-073A-4C10-BAD4-2CA98967D974}"
+            description="EmailSettings"            
+            threadingModel="both">
+    </comClass>	
+
+	<comClass clsid="{C4EF4A25-680D-459F-98DE-22F86A3C587E}"
+            description="License4"            
+            threadingModel="both">
+    </comClass>	
+
+    <comClass clsid="{4C7FD9AF-52D9-4294-8163-E687A2F8773D}"
+            description="NFCeGovX"
+            tlbid="{D59D1658-E509-4725-8E28-CD616D2AAFB8}"
+            threadingModel="both">
+    </comClass>	
+
+  </file>
+
+</assembly>
