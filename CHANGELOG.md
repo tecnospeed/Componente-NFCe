@@ -1,4 +1,16 @@
-﻿## [9.1.67.8867]
+﻿## [9.1.67.8869]
+
+**Plugin NFCe**
+
+**Correções**
+* DSML-513 - Ajuste nos links de consulta por chave e QRCode SEFAZ MG
+* DSML-514 - Ajuste no link de consulta QRCode SEFAZ TO
+* DSML-522 - Corrigido a mensagem de erro de falha temporária de conexão.
+
+**Novidades**
+* DSP4G-953 - compatibilizando com NT2023.001 - para mais detalhes [consulte](https://blog.tecnospeed.com.br/nf-e-e-nfc-e-nota-tecnica-2023-001-tributacao-monofasica-sobre-combustiveis/)
+
+## [9.1.67.8867]
 
 #leiame
 
@@ -265,6 +277,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
