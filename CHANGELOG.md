@@ -1,6 +1,6 @@
 ﻿## [9.1.67.8880]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DSML-614 NFC-e Componente - NT 2023.001 v1.20
 
 ## [9.1.67.8869]
 
