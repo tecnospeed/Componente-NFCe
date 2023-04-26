@@ -1,4 +1,8 @@
-﻿## [9.1.67.8869]
+﻿## [9.1.67.8880]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [9.1.67.8869]
 
 **Plugin NFCe**
 
@@ -277,6 +281,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
