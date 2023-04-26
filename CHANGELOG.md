@@ -1,3 +1,8 @@
+﻿## [9.1.68.2]
+
+**Novidade**
+- DSML-614 NFC-e Componente - NT 2023.001 v1.20
+
 
 ## [9.1.67.8869]
 
@@ -278,6 +283,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
