@@ -1,4 +1,13 @@
-﻿## [9.1.69.1004]
+﻿## [9.1.70.1010]
+
+* **Novidade**
+
+  * DSML-721 NFC-e Componente - NT 2023.002 v1.00 [Publicada NT 2023.002 v.1.00](http://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false&Informe=wuVuolIzJLs=&AspxAutoDetectCookieSupport=1)
+  * DSML-810 NFC-e Componente - Criação do campo cAut nos modelos de impressão
+  * DSML-834 NFC-e Componente - Ajuste na visualização do nome do consumidor no modelo de impressão retrato_texto
+
+
+## [9.1.69.1004]
 
 **Correção**
 - DSML-743 - Problema de assinatura com certificado digital
@@ -288,6 +297,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
