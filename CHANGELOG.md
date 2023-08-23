@@ -1,4 +1,10 @@
-﻿## [9.1.70.1010]
+﻿## [9.1.70.1012]
+
+Correção - Hotfix
+
+DSML-834 - Ajuste na visualização do nome do consumidor no modelo de impressão retrato_texto
+
+## [9.1.70.1010]
 
 * **Novidade**
 
@@ -297,6 +303,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
