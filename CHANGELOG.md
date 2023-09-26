@@ -1,4 +1,8 @@
-﻿## [9.1.70.1012]
+﻿## [10.1.70.1015]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [9.1.70.1012]
 
 Correção - Hotfix
 
@@ -303,6 +307,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
