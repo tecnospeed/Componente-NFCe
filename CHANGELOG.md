@@ -1,6 +1,9 @@
 ﻿## [10.1.70.1015]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Correção**
+
+* DSML-858 - Corrigido a formatação da impressão do RTM para não cortar a URL do QRCode.
+* DSML-888 - Realizado a correção na visualização e impressão de nfce em A4 com descrições longas.
 
 ## [9.1.70.1012]
 
