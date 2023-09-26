@@ -1,5 +1,5 @@
 ﻿## [10.1.70.1015]
-
+ 
 **Correção**
 
 * DSML-858 - Corrigido a formatação da impressão do RTM para não cortar a URL do QRCode.
