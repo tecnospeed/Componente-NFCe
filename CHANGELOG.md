@@ -1,4 +1,8 @@
-﻿## [10.1.70.1015]
+﻿## [10.1.71.1017]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [10.1.70.1015]
  
 **Correção**
 
@@ -310,6 +314,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
