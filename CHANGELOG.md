@@ -1,6 +1,7 @@
 ﻿## [10.1.71.1017]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Correção**
+* DSML-932 - Realizado a correção na Exibição do cabeçalho aonde estava cortando o municipio.
 
 ## [10.1.70.1015]
  
