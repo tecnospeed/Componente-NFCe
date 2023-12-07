@@ -1,4 +1,14 @@
-﻿## [10.1.71.1017]
+﻿## [10.1.72.1022]
+
+**Correções**
+
+* DSML-937 - Correção da rejeição `codificação diferente de UTF-8` para SP, utilizando a propriedade `httpLibs` igual a `SBB`;
+
+* DSML-960 - Correção do erro `O campo CNPJ: deve ser um número inteiro` ao utilizar um CPF como emitente;
+
+* DSML-987 - Melhoria nas mensagens de retorno da Sefaz, apresentando somente as tags relevantes;
+
+## [10.1.71.1017]
 
 **Correção**
 * DSML-932 - Realizado a correção na Exibição do cabeçalho aonde estava cortando o municipio.
@@ -315,6 +325,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
