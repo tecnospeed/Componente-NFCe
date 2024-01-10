@@ -1,4 +1,9 @@
-﻿## [10.1.72.1022]
+﻿## [10.1.72.1024]
+
+**Melhorias**
+- DSML-994 - Disponibilizado o campo infAdProd no DataSetItens para impressão(RTM);
+
+## [10.1.72.1022]
 
 **Correções**
 
@@ -325,6 +330,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
