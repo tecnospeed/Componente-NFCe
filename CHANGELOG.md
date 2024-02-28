@@ -1,4 +1,10 @@
-﻿## [10.1.72.1024]
+﻿## [10.1.73.1028]
+
+**Novidades**
+
+* DSP4G-771 - integração por arquivo no formato JSON para o metodo ConverterLoteParaXml[](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005515913)
+
+## [10.1.72.1024]
 
 **Melhorias**
 - DSML-994 - Disponibilizado o campo infAdProd no DataSetItens para impressão(RTM);
@@ -330,6 +336,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
