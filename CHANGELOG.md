@@ -1,4 +1,16 @@
-﻿## [10.1.73.1028]
+﻿## [10.1.74.1033]
+
+**Novidades**
+
+* DSML-1046 - compatibilizado componente com a [Nota Técnica 2023.004 v.1.10](https://blog.tecnospeed.com.br/nf-e-e-nfc-e-nota-tecnica-2023-004-evento-de-conciliacao-financeira-econf-outros-campos-e-regras);
+
+* DSML-1183 - compatibilizado componente com a [Nota Técnica 2019.001 v.1.62](https://blog.tecnospeed.com.br/nt-2019-001-nfe) e nova versão de esquema pl009n;
+
+* DSML-1082 - Nova versão de esquema pl009m, compatível com a Nota Técnica 2019.001 v.1.60, foi criado um novo grupo para as informações do crédito presumido e novo campo para as informações do [cbenef](https://blog.tecnospeed.com.br/cbenef/);
+
+* DSML-1013 - Compatibilização do instalador para o Delphi 12 Athenas
+
+## [10.1.73.1028]
 
 **Novidades**
 
@@ -336,6 +348,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
