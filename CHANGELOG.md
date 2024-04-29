@@ -1,4 +1,10 @@
-﻿## [10.1.74.1033]
+﻿## [10.1.74.1034]
+
+**Correção**
+
+- [DSML-1239] - Hotfix - correção da geração da tag comb na pl_009n e pl_009m;
+
+## [10.1.74.1033]
 
 **Novidades**
 
@@ -348,6 +354,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
