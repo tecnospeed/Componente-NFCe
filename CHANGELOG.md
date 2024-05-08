@@ -1,4 +1,11 @@
-﻿## [10.1.74.1034]
+﻿## [10.1.75.1035]
+
+**Correções**
+
+- DSML-1239 - correção da geração da tag comb na pl_009n e pl_009m;
+- DSML-1254  Corrigida quantidade de caracteres na tag cAut de 20 para 128
+
+## [10.1.74.1034]
 
 **Correção**
 
@@ -354,6 +361,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
