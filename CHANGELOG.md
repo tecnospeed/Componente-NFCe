@@ -1,4 +1,16 @@
-﻿## [10.1.75.1035]
+﻿## [10.1.76.1036]
+
+**Novidades**
+
+* DSML-1052 - Atualização do link de QRCode da UF Rio de Janeiro
+
+**Correções**
+
+* DSML-998 - Ajustando a formatação do telefone
+
+* DSML-1257 - Removido campo cAut da impressão da DANFECE
+
+## [10.1.75.1035]
 
 **Correções**
 
@@ -361,6 +373,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
