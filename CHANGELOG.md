@@ -1,4 +1,11 @@
-﻿## [10.1.76.1036]
+﻿## [10.1.77.1039]
+
+**Novidades**
+
+- DSML-1287 - Informe técnico 2024.002 V1.01
+ 
+
+## [10.1.76.1036]
 
 **Novidades**
 
@@ -373,6 +380,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
