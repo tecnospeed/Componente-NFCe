@@ -1,4 +1,10 @@
-﻿## [10.1.77.1041]
+﻿## [10.1.78.1042]
+
+**Correção**
+
+**DSML-1029** - Correção para que a URL do QRCode não seja cortada em exportações .txt
+
+## [10.1.77.1041]
 
 **Correções**
 
@@ -386,6 +392,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
