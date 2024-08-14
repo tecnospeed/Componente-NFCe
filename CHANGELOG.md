@@ -8,7 +8,7 @@
 
 **Correções**
 
-* DEP-553 - (Nota Técnica 2024.001 V1.10) - Corrigido arquivos para aceitar dataset com CST = 4 
+* DEP-553 - (Nota Técnica 2024.001 V1.10) - Corrigido arquivos para aceitar dataset com CRT = 4 
 
 ## [10.1.77.1039]
 
