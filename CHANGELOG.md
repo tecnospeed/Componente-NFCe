@@ -1,4 +1,10 @@
-﻿## [10.1.78.1042]
+﻿## [10.1.79.1044]
+
+**Correções**
+
+* DSML-1306 - Ajuste em erro genérico retornado da Sefaz SP.
+
+## [10.1.78.1042]
 
 **Correção**
 
@@ -392,6 +398,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
