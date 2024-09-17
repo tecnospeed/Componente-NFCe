@@ -1,7 +1,7 @@
 ﻿## [10.1.78.1048]
 
 * DSML-1043 - Disponibilizado metodo para envio de Cancelamento do evento de Conciliação Financeira - ECONF
-* DSML-1044 -   - Implementação da NT 2024.002 - ECONF - Evento de Conciliação Financeira
+* DSML-1044 - Implementação da NT 2024.002 - ECONF - Evento de Conciliação Financeira
 
 ## [10.1.79.1044]
 
