@@ -1,4 +1,8 @@
-﻿## [10.1.79.1044]
+﻿## [10.1.78.1048]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [10.1.79.1044]
 
 **Correções**
 
@@ -398,6 +402,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
