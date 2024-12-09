@@ -1,4 +1,10 @@
-﻿## [10.1.78.1048]
+﻿## [10.1.79.1052]
+
+**Correções**
+
+* DSML-1368 - Ajustes na geração da Assinatura para Responsável Técnico.
+
+## [10.1.78.1048]
 
 * DSML-1043 - Disponibilizado metodo para envio de Cancelamento do evento de Conciliação Financeira - ECONF
 * DSML-1044 - Implementação da NT 2024.002 - ECONF - Evento de Conciliação Financeira
@@ -403,6 +409,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
