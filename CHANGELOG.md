@@ -1,4 +1,13 @@
-﻿## [10.1.79.1052]
+﻿## [10.1.80.1056]
+
+**Novudades**
+
+* DSP4G-1706 - Compatibilização com o novo método de validação de email oAuth2 dos provedores Microsfot e Google.
+* DSP4G-1687 - Criar método "TestarEmailConfig" para validação de email
+* DSP4G-1680 - Validação oAuth - Criar documentação do método
+* DSP4G-1657 - Comp. NFCe - Compatibilizar para o novo método de validação OAuth
+
+## [10.1.79.1052]
 
 **Correções**
 
@@ -409,6 +418,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
