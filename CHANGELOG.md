@@ -1,9 +1,3 @@
-﻿## [10.1.81.1059]
-
-**Correções**
-
-* [DSML-1591]Correções para implementação do OAuth2 do componente NFCe.
-
 
 ## [10.1.80.1056]
 
