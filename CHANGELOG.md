@@ -1,3 +1,10 @@
+﻿## [10.1.82.1061]
+
+**Correções**
+
+* [DSML-1591]Correções para implementação do OAuth2 do componente NFCe.
+
+
 
 ## [10.1.80.1056]
 
@@ -419,6 +426,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
