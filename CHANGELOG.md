@@ -1,4 +1,16 @@
-﻿## [10.1.82.1061]
+﻿## [10.1.83.68]
+
+**Novidades**
+
+* 25.04.28 | SaaS - NFCe | DSML-1702 - Foi realizada uma melhoria para permitir a impressão do CEAN do produto no campo "Código do Produto".Foi realizada uma melhoria para permitir a impressão do CEAN do produto no campo "Código do Produto". Para isso, foram adicionados dois novos parâmetros na rota: ExibirCodigoProduto: define que o código será impresso (valor padrão). ExibirCeanProduto: deve ser ativado para que o CEAN seja impresso no lugar do código.
+
+**Correções**
+
+* 25.04.28 | Comp - NFCe | DSML-1578 - BUG - [COMPONENTE] - [NFCE] - [Interno] - [PROBLEMA IMPRESSÃO]
+
+* 25.04.28 | SaaS - NFCe | DSML-1701 - Implementando a impressão do protocolo de autorização na NFCe autorizada em contingência
+
+## [10.1.82.1061]
 
 **Correções**
 
@@ -426,6 +438,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
