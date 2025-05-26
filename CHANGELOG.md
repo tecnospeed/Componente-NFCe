@@ -1,4 +1,18 @@
-﻿## [10.1.83.68]
+﻿## [10.1.84.73]
+
+**Novidades**
+
+* 25.05.21 | DSML-1613 - Disponibilizado nova propriedade DiretorioLicense para que seja possível personalizar o caminho do arquivo de validação de licençaDisponibilizado nova propriedade DiretorioLicense para que seja possível personalizar o caminho do arquivo de validação de licença
+* 25.05.21 | DSML-1713 - adequação a [NT 2025.001 QR code 3.0](https://blog.tecnospeed.com.br/nota-tecnica-2025-001-nfc-e-qr-code/)
+
+**Correções**
+
+* 25.05.21 | DSML-1749 - Ajustado validação da propriedade CNPJ para permitir cpf e cnpj e gerar o license normalmenteAjustado validação da propriedade CNPJ para permitir cpf e cnpj e gerar o license normalmente
+* 25.05.21 | DSML-1733 - Adicionando o preenchimento do grupo I05G (gCred) no método ConverteXmlParaDataSet.Adicionando o preenchimento do grupo I05G (gCred) no método ConverteXmlParaDataSet.
+* 25.05.21 | DSML-1703 - Foi realizada uma melhoria para permitir a impressão do CEAN do produto no campo "Código do Produto".Foi realizada uma melhoria para permitir a impressão do CEAN do produto no campo "Código do Produto". Para isso, foram adicionados dois novos parâmetros na rota: ExibirCodigoProduto: define que o código será impresso (valor padrão). ExibirCeanProduto: deve ser ativado para que o CEAN seja impresso no lugar do código.
+
+
+## [10.1.83.68]
 
 **Novidades**
 
@@ -438,6 +452,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
