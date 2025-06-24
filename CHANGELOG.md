@@ -1,4 +1,9 @@
-﻿## [10.1.84.73]
+﻿## [10.1.85.76]
+
+**Novidade**
+- CLML-3072 - Ajustado as URL's de homologação e produção das UF's CE e GO
+
+## [10.1.84.73]
 
 **Novidades**
 
@@ -452,6 +457,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
