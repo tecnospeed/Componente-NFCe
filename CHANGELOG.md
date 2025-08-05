@@ -1,4 +1,11 @@
-﻿## [10.1.85.76]
+﻿## [11.1.0.1]
+
+**Novidades**
+
+- DSML-1744 - NT 2025.002 campos Grupo U Grupo UB e Grupo W [Reforma Tributária](https://blog.tecnospeed.com.br/nota-tecnica-reforma-tributaria-nfe-nfce/).
+- [CLML-3033](https://tecnospeed.atlassian.net/browse/CLML-3033) - Atualizando o componente com a [NT 2025.002](https://blog.tecnospeed.com.br/nota-tecnica-reforma-tributaria-nfe-nfce/).
+
+## [10.1.85.76]
 
 **Novidade**
 - CLML-3072 - Ajustado as URL's de homologação e produção das UF's CE e GO
@@ -457,6 +464,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
