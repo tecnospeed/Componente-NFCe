@@ -1,4 +1,10 @@
-﻿## [11.1.0.1]
+﻿## [11.1.1.5]
+
+**Correções**
+
+* DSML-1886 - correção parâmetro tp_idDest para contingencia do qrcode 3.0
+
+## [11.1.0.1]
 
 **Novidades**
 
@@ -464,6 +470,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
