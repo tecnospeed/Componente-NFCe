@@ -1,4 +1,8 @@
-﻿## [11.1.1.5]
+﻿## [11.1.2.7]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [11.1.1.5]
 
 **Correções**
 
@@ -470,6 +474,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
