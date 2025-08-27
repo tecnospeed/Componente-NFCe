@@ -1,6 +1,10 @@
 ﻿## [11.1.2.7]
+**Novidades**
+* DSML-1820 Atualizando o componente com a NT 2025.002;
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Correções**
+
+* DSM_-1880 Correção na implementação do qrcode 3.0 referente ao paramentro tp_iddest;
 
 ## [11.1.1.5]
 
