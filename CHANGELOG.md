@@ -1,4 +1,4 @@
-## [11.1.2.8]
+## [11.1.2.10]
 **Correções**
 
 * DSML-1886 - correção parâmetro tp_idDest para contingencia do qrcode 3.0
