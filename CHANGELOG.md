@@ -1,6 +1,3 @@
-﻿## [11.1.4.11]
-
-**Novidades**
 
 * DSML-1820 Atualizando o componente com a NT 2025.002
 
