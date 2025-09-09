@@ -12,6 +12,6 @@ Veja como é fácil integrar a NFCe TecnoSpeed ao seu software
 
 ***
 
-**Para baixar a versão Trial, [clique aqui](https://s3-sa-east-1.amazonaws.com/tecnospeed-trial/setup_nfce_tecnoaccount_11.1.4.11.exe "Baixar o Componente NFCe Trial")**.
+**Para baixar a versão Trial, [clique aqui](https://s3-sa-east-1.amazonaws.com/tecnospeed-trial/setup_nfce_tecnoaccount_11.1.3.10.exe "Baixar o Componente NFCe Trial")**.
 
 **Para ver uma lista com o histórico de mudanças, [clique aqui](https://github.com/tecnospeed/Componente-NFCe/blob/master/CHANGELOG.md "Changelog").**
