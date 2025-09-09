@@ -1,4 +1,10 @@
-﻿## [11.1.3.10]
+﻿## [11.1.4.11]
+
+**Novidades**
+
+* DSML-1820 Atualizando o componente com a NT 2025.002
+
+## [11.1.3.10]
 
 **Correção**
 
@@ -476,6 +482,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
