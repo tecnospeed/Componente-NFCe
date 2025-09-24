@@ -1,3 +1,9 @@
+﻿## [11.1.4.15]
+
+**Novidade**
+
+* DSML-1820 - Atualizando o componente com a NT 2025.001 v1.20
+
 
 * DSML-1820 Atualizando o componente com a NT 2025.002
 
@@ -479,6 +485,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
