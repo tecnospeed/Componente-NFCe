@@ -1,4 +1,11 @@
-﻿## [11.1.4.15]
+﻿## [11.1.5.22]
+
+**_Correções_**
+
+* DSML-1904 - Foi alterado a checagem de paramentros no componente NFC-e para permitir numero de protocolo com 17 digitos, e foi alterado também os arquivos XSD que realizam a validação dos campos antes da montagem do xml.
+* [CLML-3328](https://tecnospeed.atlassian.net/browse/CLML-3328) - Corrigindo erro ao converter XML para DataSet.
+
+## [11.1.4.15]
 
 **Novidade**
 
@@ -485,6 +492,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
