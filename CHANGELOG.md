@@ -1,4 +1,12 @@
-﻿## [11.1.5.22]
+﻿## [11.1.6.25]
+
+**Novidades**
+
+* [DSML-1921](https://tecnospeed.atlassian.net/browse/DSML-1921) - Compatibilizando o componente com a[ NT 2025.002 v1.30](https://blog.tecnospeed.com.br/eventos-reforma-tributaria-nfe-nfce/)
+
+* DSML-1936 atualizado o NFeDatasets.xml para o Tpag=91
+
+## [11.1.5.22]
 
 **_Correções_**
 
@@ -492,6 +500,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
