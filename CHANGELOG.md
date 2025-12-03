@@ -1,4 +1,10 @@
-﻿## [11.1.6.25]
+﻿## [11.1.7.27]
+
+**Correções**
+
+* [DSML-1881](https://tecnospeed.atlassian.net/browse/DSML-1881) - Ajustando ordem de impressão dos itens presente nota.
+
+## [11.1.6.25]
 
 **Novidades**
 
@@ -500,6 +506,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
