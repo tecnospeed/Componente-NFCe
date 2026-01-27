@@ -1,4 +1,10 @@
-﻿## [11.1.7.27]
+﻿## [11.1.7.29]
+
+**Correções**
+
+* DSML-1919- Ajustando assinatura QRCode 3.0 no modo contingência offline
+
+## [11.1.7.27]
 
 **Correções**
 
@@ -506,6 +512,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
