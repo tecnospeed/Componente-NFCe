@@ -1,4 +1,14 @@
-﻿## [11.1.7.29]
+﻿## [11.1.7.31]
+
+**Novidades**
+
+* [DSML-1977](https://tecnospeed.atlassian.net/browse/DSML-1977) - Compatibilizando o componente NFCe com o Delphi 13
+
+**Correções**
+
+* [ODSML-17832](http://odoo.tecnospeed.local/odoo/project/40/tasks/17832) - Ajustes nos valores aceitos e descrição do campo tPag_YA02
+
+## [11.1.7.29]
 
 **Correções**
 
@@ -512,6 +522,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
