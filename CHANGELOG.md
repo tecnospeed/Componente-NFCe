@@ -1,4 +1,11 @@
-﻿## [11.1.7.31]
+﻿## [11.1.7.32]
+
+**Novidades**
+
+* [ODSML-28886](http://odoo.tecnospeed.local/odoo/project/40/tasks/28886) - Compatibilizando o componente NFCe com as NT 2022.002 v 1.30 e 1.30a 
+
+
+## [11.1.7.31]
 
 **Novidades**
 
@@ -522,6 +529,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
