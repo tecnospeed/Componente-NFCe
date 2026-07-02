@@ -1,4 +1,11 @@
-﻿## [11.1.7.32]
+﻿## [11.1.7.37]
+
+**Novidades**
+* [ODSML-29403](http://odoo.tecnospeed.local/odoo/project/40/tasks/29403) - alteração das URLs do QR Code da UF RN
+* [ODSML-28707](http://odoo.tecnospeed.local/odoo/project/40/tasks/28707) - Nota Técnica 2026.004.v.1.01 - nova PL_010d compatibilização com CNPJ Alfanumérico
+
+
+## [11.1.7.32]
 
 **Novidades**
 
@@ -529,6 +536,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
