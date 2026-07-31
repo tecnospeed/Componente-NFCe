@@ -1,4 +1,10 @@
-﻿## [11.1.7.37]
+﻿## [11.1.7.40]
+
+**Novidades**
+
+[OSDML-28700-](http://odoo.tecnospeed.local/odoo/project/40/tasks/28700) - Implementações das mudanças referente a Nota Técnica 2025.002 v 1.36 e V1.40.
+
+## [11.1.7.37]
 
 **Novidades**
 * [ODSML-29403](http://odoo.tecnospeed.local/odoo/project/40/tasks/29403) - alteração das URLs do QR Code da UF RN
@@ -536,6 +542,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
