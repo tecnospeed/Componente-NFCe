@@ -1,4 +1,10 @@
-﻿## [11.1.7.40]
+﻿## [11.1.7.42]
+
+**Correções**
+
+* [ODSML-32972](http://odoo.tecnospeed.local/odoo/project/40/tasks/32972) - Retrocompatibilidade de mapeamento pl_010b/c/d/e para gCompraGov e gPagAntecipado
+
+## [11.1.7.40]
 
 **Novidades**
 
@@ -542,6 +548,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
