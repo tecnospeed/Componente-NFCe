@@ -1,4 +1,13 @@
-﻿## [11.1.7.42]
+﻿## [12.1.0.7]
+
+**Novidades**
+
+* [ODSML-30214](http://odoo.tecnospeed.local/odoo/project/40/tasks/30214) - Compatibilizando componente NFCe com nova PL_010F [NT_2025.002_v1.50_RTC_NF-e_IBS_CBS_IS](https://blog.tecnospeed.com.br/nota-tecnica-reforma-tributaria-nfe-nfce/).
+
+* [ODSML-31761](http://odoo.tecnospeed.local/odoo/project/40/tasks/31761) -  Correção da divergência entre o digVal do XML de envio e o digVal do processamento ao executar o método GerarXMLEnvioDestinatario.
+
+
+## [11.1.7.42]
 
 **Correções**
 
@@ -548,6 +557,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
