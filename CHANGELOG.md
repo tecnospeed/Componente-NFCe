@@ -1,4 +1,11 @@
-﻿## [12.1.0.7]
+﻿## [12.1.0.13]
+
+**Novidades**
+
+* ODSML-32135 - Criando validações de CNPJ antes do envio.
+* ODSML-14360 -  melhorias assinatura instalador
+
+## [12.1.0.7]
 
 **Novidades**
 
@@ -557,6 +564,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
