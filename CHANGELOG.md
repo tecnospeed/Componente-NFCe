@@ -1,4 +1,15 @@
-﻿## [12.1.0.13]
+﻿## [12.1.0.19]
+
+**Novidades**
+
+* [ODSML-36596](http://odoo.tecnospeed.local/odoo/project/40/tasks/36596) - Compatibilizando com a Nota Tecnica [2026.008 RTC - Valor Liquido do Produto](https://blog.tecnospeed.com.br/nt-rtc-2026-008-nfe/)
+
+**Correcoes**
+
+* [ODSML-36206](http://odoo.tecnospeed.local/odoo/project/40/tasks/36206) - Ajustando geracao do XMLDestinatario para CSTAT 120.
+* [ODSML-36694](http://odoo.tecnospeed.local/odoo/project/40/tasks/36694) - Ajustando modelo de RTM retrato58mm.rtm para ser impresso corretamente as informacoes dos itens.
+
+## [12.1.0.13]
 
 **Novidades**
 
@@ -564,6 +575,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
