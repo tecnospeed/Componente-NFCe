@@ -1,4 +1,12 @@
-﻿## [12.1.0.19]
+﻿## [12.1.0.22]
+
+**Novidades**
+
+* [ODSML-34204](http://odoo.tecnospeed.local/odoo/project/40/tasks/34204) - Compatibilizando com à Nota Técnica [2026.006 RTC – Vinculação com a transação de pagamento](https://blog.tecnospeed.com.br/nt-2026-006-vinculacao-de-pagamento-nf-e/)
+
+* [ODSML-34203](http://odoo.tecnospeed.local/odoo/project/40/tasks/34203) - Evento de Vinculação da Transação de Pagamento no DF-e, Nota Técnica [2026.006 RTC – Vinculação com a transação de pagamento](https://blog.tecnospeed.com.br/nt-2026-006-vinculacao-de-pagamento-nf-e/)
+
+## [12.1.0.19]
 
 **Novidades**
 
@@ -575,6 +583,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
