@@ -1,4 +1,8 @@
-﻿## [12.1.0.25]
+﻿## [12.1.0.26]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [12.1.0.25]
 
 Novidades
 
@@ -589,6 +593,7 @@ https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005918634
 ## [8.0.55.8730]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
