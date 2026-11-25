@@ -1,9 +1,5 @@
 ﻿## [12.1.0.26]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
-
-## [12.1.0.25]
-
 Novidades
 
 * [ODSML-37084](http://odoo.tecnospeed.local/odoo/project/40/tasks/37084) - Compatibilizando o componente NFCe com a NT [2026.005 v1.00 - Simples Nacional](https://blog.tecnospeed.com.br/nt-2026-005-nfe-simples-nacional/)
